@@ -139,16 +139,16 @@ function render() {
   const tbody = document.getElementById("rows");
   tbody.innerHTML = "";
 
-  for (const g of rows) {
+  rows.forEach((g, index) => {
     const tr = document.createElement("tr");
-    tr.className = rowClass(g.state); // Keep your color logic!
+    tr.className = rowClass(g.state);
 
     tr.innerHTML = `
       <td class="px-4 py-2" data-label="Title">
         <div class="font-medium title-text">
           ${g.title}
         </div>
-        <div class="mt-1 text-sm text-slate-400 leading-relaxed">
+        <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs">
           ${escapeHtml(g.notes).replace(/\n/g, "<br>")}
         </div>
       </td>
@@ -158,7 +158,7 @@ function render() {
       </td>
 
       <td class="px-4 py-2" data-label="Link">
-        <div class="flex items-center gap-3">
+        <div class="flex items-center gap-3 print:hidden">
           <a
             href="${g.link}"
             target="_blank"
@@ -176,11 +176,19 @@ function render() {
             ${qrIcon()}
           </button>
         </div>
+        <div id="print-qr-${index}" class="hidden print-qr-container"></div>
       </td>
     `;
-
     tbody.appendChild(tr);
-  }
+    new QRCode(document.getElementById(`print-qr-${index}`), {
+      text: g.link,
+      width: 128,
+      height: 128,
+      colorDark : "#000000",
+      colorLight : "#ffffff",
+      correctLevel : QRCode.CorrectLevel.L
+    });
+  });
 }
 
 document.getElementById("search").addEventListener("input", render);
