@@ -1,0 +1,14 @@
+{
+  "name": "muon-compatibility-site",
+  "private": true,
+  "scripts": {
+    "build": "shx mkdir -p dist && shx cp -r static/* dist/ && tailwindcss -i build/input.css -o dist/css/style.css --minify",
+    "dev": "tailwindcss -i build/input.css -o static/css/style.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "shx": "^0.4.0",
+    "tailwindcss": "^3.4.1"
+  }
+}

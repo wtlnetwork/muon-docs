@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @media (max-width: 768px) {
+        .responsive-table thead {
+            display: none;
+        }
+
+        .responsive-table tr {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 1.5rem;
+            border: 1px solid #334155;
+            border-radius: 0.5rem;
+            overflow: hidden;
+            max-width: 100%;
+        }
+
+        .responsive-table td {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.2); 
+            overflow-wrap: anywhere;
+            word-break: break-word;
+            hyphens: auto;
+        }
+
+        .responsive-table td::before {
+            content: attr(data-label);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #94a3b8;
+            margin-right: 1rem;
+            flex-shrink: 0;
+        }
+        .responsive-table td[data-label="Title"] {
+            display: block; 
+            text-align: left;
+        }
+        .responsive-table td[data-label="Title"]::before {
+            display: none;
+        }
+        .responsive-table td[data-label="Title"] .title-text {
+            font-size: 1.125rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        .responsive-table td:last-child {
+            border-bottom: none;
+            background-color: rgba(0, 0, 0, 0.2);
+        }
+    }
+}

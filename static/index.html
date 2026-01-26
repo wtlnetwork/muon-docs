@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Muon Compatibility</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-slate-950 text-slate-100">
+
+<main class="max-w-7xl mx-auto p-4">
+  <h1 class="text-2xl font-bold mb-4">
+    Muon Compatibility
+  </h1>
+
+  <div class="flex flex-col sm:flex-row gap-2 mb-4">
+    <label class="sr-only" for="search">Filter by title</label>
+    <input
+      id="search"
+      type="text"
+      placeholder="Filter by title"
+      class="flex-1 px-3 py-2 rounded bg-slate-800 border border-slate-700 focus:outline-none focus:ring focus:ring-blue-500"
+    >
+
+    <label class="sr-only" for="stateFilter">Filter by state</label>
+    <select
+      id="stateFilter"
+      class="px-3 py-2 rounded bg-slate-800 border border-slate-700 focus:outline-none focus:ring focus:ring-blue-500"
+    >
+      <option value="">All states</option>
+      <option value="supported">Supported</option>
+      <option value="unsupported">Unsupported</option>
+      <option value="informational">Informational</option>
+    </select>
+  </div>
+
+<div class="overflow-x-auto rounded border-0 md:border md:border-slate-800">
+    <table class="min-w-full text-sm responsive-table">
+      <thead class="bg-slate-900 sticky top-0 z-10">
+        <tr>
+          <th class="px-4 py-2 text-left">
+            <button data-sort="title" class="hover:underline">
+              Title
+            </button>
+          </th>
+          <th class="px-4 py-2 text-left">
+            <button data-sort="state" class="hover:underline">
+              State
+            </button>
+          </th>
+          <th class="px-4 py-2 text-left">
+            Link
+          </th>
+        </tr>
+      </thead>
+      <tbody id="rows" class="divide-y divide-slate-800/60"></tbody>
+    </table>
+  </div>
+</main>
+<div 
+  id="qrModal" 
+  class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black/80 backdrop-blur-sm px-4"
+  aria-hidden="true"
+>
+  <div class="bg-slate-900 p-6 rounded-lg border border-slate-700 shadow-xl w-11/12 max-w-sm relative flex flex-col items-center mx-auto overflow-hidden">
+    
+    <button onclick="closeModal()" class="absolute top-3 right-3 text-slate-400 hover:text-white transition-colors p-2">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
+
+    <h2 class="text-xl font-bold text-slate-100 mb-2">Scan for Link</h2>
+    <p class="text-sm text-slate-400 mb-6 text-center">Use your phone to open this Steam link directly.</p>
+    
+    <div id="qrcode" class="bg-white p-4 rounded-lg shadow-inner max-w-full"></div>
+  </div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

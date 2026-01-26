@@ -1,0 +1,662 @@
+[
+  {
+    "title": "Homeworld Remastered Collection",
+    "state": "unsupported",
+    "notes": "ERROR: Network unavailable message will occur when creating a LAN lobby. LAN play is not available in the Remastered Collection, both Online and Offline.",
+    "link": "https://store.steampowered.com/app/244160/Homeworld_Remastered_Collection/"
+  },
+  {
+    "title": "The Riftbreaker",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Host/Load Game, Create Game Lobby.\nGuest: Multiplayer, Join Game, Join With Link, Enter HOST_IP, Connect.",
+    "link": "https://store.steampowered.com/app/780310/The_Riftbreaker/"
+  },
+  {
+    "title": "Red Faction",
+    "state": "supported",
+    "notes": "(Setup: Network, T1/LAN)\nHost: Multi, Create Game, Start\nGuest: Multi, Join Game, Press the LAN Only Button, Lobby Will Appear, Join.",
+    "link": "https://store.steampowered.com/app/20530/Red_Faction/"
+  },
+  {
+    "title": "Assetto Corsa",
+    "state": "unsupported",
+    "notes": "Using protontricks to get the base game set up, a dedicated server would not generate the custom IP by the host.\nLAN lobbies function only for dedicated servers.",
+    "link": "https://store.steampowered.com/app/244210/Assetto_Corsa/"
+  },
+  {
+    "title": "Crypt of the NecroDancer",
+    "state": "supported",
+    "notes": "(Synchrony DLC)\nHost: Multiplayer, Host Online Game, Visibility: IP Address, Server Port: 7777, Host Game.\nGuest: Multiplayer, Connect to IP Address, HOST_IP, Server Port: 7777, Connect.",
+    "link": "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/"
+  },
+  {
+    "title": "Neverwinter Nights: Enhanced Edition",
+    "state": "unsupported",
+    "notes": "Multiplayer needs online connection to connect to the Beamdog/Bioware servers for server hosting.",
+    "link": "https://store.steampowered.com/app/704450/Neverwinter_Nights_Enhanced_Edition/"
+  },
+  {
+    "title": "Barotrauma",
+    "state": "unsupported",
+    "notes": "Once offline, options for hosting a server become inaccessible in the main menu.",
+    "link": "https://store.steampowered.com/app/602960/Barotrauma/"
+  },
+  {
+    "title": "Icewind Dale: Enhanced Edition",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Create Game, —, Wait In Lobby.\nGuest: Multiplayer, Direct Connect, Input HOST_IP.",
+    "link": "https://store.steampowered.com/app/321800/Icewind_Dale_Enhanced_Edition/"
+  },
+  {
+    "title": "Baldur's Gate II: Enhanced Edition",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Create Game, —, Wait In Lobby.\nGuest: Multiplayer, Direct Connect, Input HOST_IP.",
+    "link": "https://store.steampowered.com/app/257350/Baldurs_Gate_II_Enhanced_Edition/"
+  },
+  {
+    "title": "Baldur's Gate: Enhanced Edition",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Create Game, —, Wait In Lobby.\nGuest: Multiplayer, Direct Connect, Input HOST_IP.",
+    "link": "https://store.steampowered.com/app/228280/Baldurs_Gate_Enhanced_Edition/"
+  },
+  {
+    "title": "Half-Life Arena",
+    "state": "supported",
+    "notes": "Host: Create Server, Enable Steam Networking, Start.\nGuest: Find Server, Hit 'LAN' Tab, Click Host Server, Connect.",
+    "link": "https://store.steampowered.com/app/3771220/HalfLife_Arena/"
+  },
+  {
+    "title": "Total War: ATTILA",
+    "state": "unsupported",
+    "notes": "Game requires online connection for host to create a lobby. A 'failed to create lobby' prompt will pop up when attempting to.",
+    "link": "https://store.steampowered.com/app/325610/Total_War_ATTILA/"
+  },
+  {
+    "title": "OpenTTD",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Start Server, Visibility: Local, New Game/Load Game.\nGuest: Multiplayer, Click \"Search LAN\", Highlight host server, click join game.",
+    "link": "https://store.steampowered.com/app/1536610/OpenTTD/"
+  },
+  {
+    "title": "SiN Gold",
+    "state": "supported",
+    "notes": "Host: Game, Multiplayer, Start Multiplayer Game, Internet Game: no, Launch the server.\nGuest: Game, Multiplayer, Join Multiplayer Game, Select Enter on Host Lobby.",
+    "link": "https://store.steampowered.com/app/1313/SiN_Gold/"
+  },
+  {
+    "title": "Call of Duty: World at War",
+    "state": "informational",
+    "notes": "Playable (Dedicated Server): View Muon Verified Discussion Pages to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/688615792191837784/",
+    "link": "https://store.steampowered.com/app/10090/Call_of_Duty_World_at_War/"
+  },
+  {
+    "title": "Half-Life: Cross Product Multiplayer",
+    "state": "supported",
+    "notes": "Host: custom game, ensure \"Local Server\" is checked, Start Game.\nGuest: find games, select \"Lan\" tab, highlight lobby, Connect.\nBoth: Press the \"X\" button to spawn in.",
+    "link": "https://store.steampowered.com/app/3416640/HalfLife_Cross_Product_Multiplayer/"
+  },
+  {
+    "title": "Embr",
+    "state": "unsupported",
+    "notes": "After completing the tutorial in single player offline to unlock multiplayer, the multiplayer menu will prompt with failed to connect to online server messages.",
+    "link": "https://store.steampowered.com/app/1062830/Embr/"
+  },
+  {
+    "title": "Necesse",
+    "state": "supported",
+    "notes": "Host: Play Multiplayer, Host World, Ensure \"Allow connection by IP\" is checked, Host.\nGuest: Play Multiplayer, Join a server, Host Server will appear on LAN search, Join Server.",
+    "link": "https://store.steampowered.com/app/1169040/Necesse/"
+  },
+  {
+    "title": "Base Defense",
+    "state": "supported",
+    "notes": "Host: Create Game, Create\nGuest: Find Games, Select \"Lan\" Tab, Connect.",
+    "link": "https://store.steampowered.com/app/632730/Base_Defense/"
+  },
+  {
+    "title": "Your Only Move Is HUSTLE",
+    "state": "supported",
+    "notes": "Host: Direct Connect, Select Name, Type in Host IP in IP Bar (Leave Port as Default), Host\nGuest: Direct Connect, Select Name, Type in Host IP in IP Bar, Join.",
+    "link": "https://store.steampowered.com/app/2212330/Your_Only_Move_Is_HUSTLE/"
+  },
+  {
+    "title": "Bytebond",
+    "state": "supported",
+    "notes": "Host: Network Co-Op, LAN, Host\nGuest: Network Co-Op, LAN, Join, Input Host IP, Enter",
+    "link": "https://store.steampowered.com/app/1952690/Bytebond/"
+  },
+  {
+    "title": "MISERY",
+    "state": "unsupported",
+    "notes": "Guest can not find the host lobby in LAN mode using the default or custom server code created by the host.\nLAN matches are tied to Epic's online service for connection.",
+    "link": "https://store.steampowered.com/app/2119830/MISERY/"
+  },
+  {
+    "title": "STAR WARS™ Jedi Knight - Jedi Academy™",
+    "state": "supported",
+    "notes": "Host: Create A Game, Max Players: 16, Advanced, Dedicated Server: No, Pure Server: No, Done, Begin.\nGuest: Join A Game, Source: Local, highlight local lobby, Join.",
+    "link": "https://store.steampowered.com/app/6020/STAR_WARS_Jedi_Knight__Jedi_Academy/"
+  },
+  {
+    "title": "Dino D-Day",
+    "state": "supported",
+    "notes": "Host: Create Server, Launch Game\nGuest: Enable Developer Console, hit \"~\" button under ESC key, type \"connect\" then HOST_IP.",
+    "link": "https://store.steampowered.com/app/70000/Dino_DDay/"
+  },
+  {
+    "title": "The Ship: Murder Party",
+    "state": "supported",
+    "notes": "Host: Create Server, Check 'LAN Only', Start\nGuest: Join a Cruise, Select the LAN Tab, Refresh all, Select Host Lobby, Connect.",
+    "link": "https://store.steampowered.com/app/2400/The_Ship_Murder_Party/"
+  },
+  {
+    "title": "Lost Planet™: Extreme Condition",
+    "state": "unsupported",
+    "notes": "Multiplayer options are blocked once Steam is in Offline Mode.",
+    "link": "https://store.steampowered.com/app/6510/Lost_Planet_Extreme_Condition/"
+  },
+  {
+    "title": "Screencheat",
+    "state": "unsupported",
+    "notes": "Creating a LAN lobby as host will create a loading loop, game needs to be online to create a LAN lobby",
+    "link": "https://store.steampowered.com/app/301970/Screencheat/"
+  },
+  {
+    "title": "Fight The Dragon",
+    "state": "unsupported",
+    "notes": "Setting up a LAN lobby will not work, game requires the host to be online to create a lobby using their IP address.",
+    "link": "https://store.steampowered.com/app/250560/Fight_The_Dragon/"
+  },
+  {
+    "title": "Borderlands 3",
+    "state": "unsupported",
+    "notes": "Defaults to LAN mode when offline, but guests cannot find the host lobby in the search browser. No direct IP options.",
+    "link": "https://store.steampowered.com/app/397540/Borderlands_3/"
+  },
+  {
+    "title": "Borderlands 2",
+    "state": "unsupported",
+    "notes": "Has direct IP commands in launch options, but guests can not join the host lobby, game claims the versions are different and declines access (2.0.0 version on both devices w/wo proton)",
+    "link": "https://store.steampowered.com/app/49520/Borderlands_2/"
+  },
+  {
+    "title": "Classic Marathon Infinity",
+    "state": "supported",
+    "notes": "Host: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input host IP in bar below, Join Local Game.",
+    "link": "https://store.steampowered.com/app/2398520/Classic_Marathon_Infinity/"
+  },
+  {
+    "title": "Classic Marathon 2",
+    "state": "supported",
+    "notes": "Host: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input host IP in bar below, Join Local Game.",
+    "link": "https://store.steampowered.com/app/2398490/Classic_Marathon_2/"
+  },
+  {
+    "title": "Classic Marathon",
+    "state": "supported",
+    "notes": "Host: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input host IP in bar below, Join Local Game.",
+    "link": "https://store.steampowered.com/app/2398450/Classic_Marathon/"
+  },
+  {
+    "title": "nail'd",
+    "state": "supported",
+    "notes": "Host & Guest: Switch to Controller in Gameplay Options Menu.\nHost: Multiplayer, LAN, Create, Wait until Lobby is Up\nGuest: Multiplayer, LAN, Join, Select Host Lobby.",
+    "link": "https://store.steampowered.com/app/40380/naild/"
+  },
+  {
+    "title": "Robot Roller-Derby Disco Dodgeball",
+    "state": "unsupported",
+    "notes": "Has LAN options, but enabling local network will fail to create lobbies with \"InternalReceiveException\" error.",
+    "link": "https://store.steampowered.com/app/270450/Robot_RollerDerby_Disco_Dodgeball/"
+  },
+  {
+    "title": "Little Fighter 2 Remastered",
+    "state": "informational",
+    "notes": "Playable (Dedicated Server):\nHost: Network Play, Start a Private Server, Change port to: 7777, Start.\nGuest: Network Play, Join a Private Server, Enter Name, Host IP, and 7777 for port.",
+    "link": "https://store.steampowered.com/app/3249650/Little_Fighter_2_Remastered/"
+  },
+  {
+    "title": "Risk of Rain 2",
+    "state": "supported",
+    "notes": "Host: MP, Create MP, Start.\nGuest: Press CTRL+ALT+` for D.C menu to appear (use Steam's Edit Controls and make a button for this),\nenter: \"connect HOST_IP:7777\" in the D.C. bar then submit.",
+    "link": "https://store.steampowered.com/app/632360/Risk_of_Rain_2/"
+  },
+  {
+    "title": "Command & Conquer™ Remastered Collection",
+    "state": "unsupported",
+    "notes": "Guest can't find host lobby, and the host can't start the game while in the lobby, LAN mode doesn't work while offline.",
+    "link": "https://store.steampowered.com/app/1213210/Command__Conquer_Remastered_Collection/"
+  },
+  {
+    "title": "Unturned",
+    "state": "informational",
+    "notes": "Playable (Dedicated Server): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/591777299172449269/",
+    "link": "https://store.steampowered.com/app/304930/Unturned/"
+  },
+  {
+    "title": "Palworld",
+    "state": "unsupported",
+    "notes": "Palworld is tightly integrated with Epic Online Services and Steam Networking API; multiplayer features will be inaccessible from the main menu due to an invalid online token.",
+    "link": "https://store.steampowered.com/app/1623730/Palworld/"
+  },
+  {
+    "title": "Low Light Combat",
+    "state": "supported",
+    "notes": "Host: Play, Host, Check 'LAN', Host\nGuest: Play, Direct IP, input Host IP.",
+    "link": "https://store.steampowered.com/app/1696820/Low_Light_Combat/"
+  },
+  {
+    "title": "BRINK",
+    "state": "unsupported",
+    "notes": "Has Direct IP, Dedicated Server, LAN connections and console commands. But once Steam is in offline mode, any option to join or create a game lobby is blocked.",
+    "link": "https://store.steampowered.com/app/22350/BRINK/"
+  },
+  {
+    "title": "Sven Co-op",
+    "state": "supported",
+    "notes": "Host: Start Game, Go to Game Tab and Check 'LAN Game', Start.\nGuest: Join game, Switch to 'LAN' Tab, Refresh, Connect.",
+    "link": "https://store.steampowered.com/app/225840/Sven_Coop/"
+  },
+  {
+    "title": "House Flipper 2",
+    "state": "supported",
+    "notes": "Host: Co-Op, Host, Switch to LAN, Create.\nGuest: Co-Op, Join, Input Host IP.",
+    "link": "https://store.steampowered.com/app/1190970/House_Flipper_2/"
+  },
+  {
+    "title": "Borderlands Game of the Year Enhanced",
+    "state": "supported",
+    "notes": "(GoTY/Original)\nHost: LAN Game, Host Public Game, OK, Wait for Guest Launch.\nGuest: Input Host IP in Launch Options on Steam, Launch Game.\n(Note: Enhanced version does not work)",
+    "link": "https://store.steampowered.com/app/729040/Borderlands_Game_of_the_Year_Enhanced/"
+  },
+  {
+    "title": "Cry of Fear",
+    "state": "supported",
+    "notes": "Host: Host Server, Game Tab, Check \"LAN Server\", Start\nGuest: Press '~' Key Under ESC Key, type 'connect' then type the Host IP in the console, hit enter to join game.",
+    "link": "https://store.steampowered.com/app/223710/Cry_of_Fear/"
+  },
+  {
+    "title": "Bravery and Greed",
+    "state": "unsupported",
+    "notes": "Has Direct IP option, but joining lobbies is tied to Steam Networking API, guests can't join via direct IP or server browsing.",
+    "link": "https://store.steampowered.com/app/943370/Bravery_and_Greed/"
+  },
+  {
+    "title": "RUNNING WITH RIFLES",
+    "state": "unsupported",
+    "notes": "Has Direct IP support, but is tied to online servers. Guests can't join the host lobby.",
+    "link": "https://store.steampowered.com/app/270150/RUNNING_WITH_RIFLES/"
+  },
+  {
+    "title": "Grim Dawn",
+    "state": "supported",
+    "notes": "Host: Single Player, Change to Host Multiplayer, Start Game\nGuest: Single Player, Change to Join Multiplayer, Host Lobby will Show in Browser, Join.",
+    "link": "https://store.steampowered.com/app/219990/Grim_Dawn/"
+  },
+  {
+    "title": "STAR WARS™ Battlefront (Classic, 2004)",
+    "state": "informational",
+    "notes": "Playable (Mod Install): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/591777615946325662/",
+    "link": "https://store.steampowered.com/app/1058020/STAR_WARS_Battlefront_Classic_2004/"
+  },
+  {
+    "title": "Among Us",
+    "state": "supported",
+    "notes": "Host: Play, Local, Create Classic or Hide n Seek.\nGuest: Play, Local, Host Game will show in the Available Games - Click to join!",
+    "link": "https://store.steampowered.com/app/945360/Among_Us/"
+  },
+  {
+    "title": "Move or Die",
+    "state": "supported",
+    "notes": "Host & Guest: Play Locally, LAN (old school).\nHost: Host LAN Game, Wait in Lobby\nGuest: Scan Lobby, Screen Will Go Blank, Joined Host Lobby!",
+    "link": "https://store.steampowered.com/app/323850/Move_or_Die/"
+  },
+  {
+    "title": "Satisfactory",
+    "state": "supported",
+    "notes": "Host: New Game/Continue, MP Settings, Session Type: IP, Start Game.\nGuest: Join Game, join game directly, input Host IP. (Note: will be hidden, but does work!)",
+    "link": "https://store.steampowered.com/app/526870/Satisfactory/"
+  },
+  {
+    "title": "Valheim",
+    "state": "informational",
+    "notes": "Playable (Dedicated Server):\nView Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/506208224013366302/",
+    "link": "https://store.steampowered.com/app/892970/Valheim/"
+  },
+  {
+    "title": "V Rising",
+    "state": "supported",
+    "notes": "Host: Play, Private Game, Game Settings, Check 'LAN Server, Save, Start Game\nGuest: Play, Online Play, Direct Connect Option, Enter Host IP",
+    "link": "https://store.steampowered.com/app/1604030/V_Rising/"
+  },
+  {
+    "title": "Counter-Strike 2",
+    "state": "unsupported",
+    "notes": "with 'sv_lan 1' and 'connect' console commands, attempts to join an offline LAN are revoked with Steam requiring online access, dedicated servers need online accessibility to run as well.",
+    "link": "https://store.steampowered.com/app/730/CounterStrike_2/"
+  },
+  {
+    "title": "Divinity: Original Sin - Enhanced Edition",
+    "state": "supported",
+    "notes": "Host: Continue/New Game, Multiplayer, Wait in Lobby.\nGuest: Join, Press Direct IP Button, Input Host IP.",
+    "link": "https://store.steampowered.com/app/373420/Divinity_Original_Sin__Enhanced_Edition/"
+  },
+  {
+    "title": "Half-Life 2: Deathmatch",
+    "state": "supported",
+    "notes": "Host: Create Server, Enable Steam Networking, Start\nGuest: Join Server, Select LAN Tab, Refresh, Click the lobby, Connect",
+    "link": "https://store.steampowered.com/app/320/HalfLife_2_Deathmatch/"
+  },
+  {
+    "title": "Half-Life",
+    "state": "supported",
+    "notes": "Host: Create Server, Enable Steam Networking, Start.\nGuest: Find Server, Hit 'LAN' Tab, Click Host Server, Connect.",
+    "link": "https://store.steampowered.com/app/70/HalfLife/"
+  },
+  {
+    "title": "Divinity: Original Sin 2 - Definitive Edition",
+    "state": "supported",
+    "notes": "Host: Campaign, Host Online Match, Wait in Lobby.\nGuest: Campaign, Join Online Match, Press Direct IP Button, Input Host IP.",
+    "link": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/"
+  },
+  {
+    "title": "System Shock 2: 25th Anniversary Remaster",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Host Game.\nGuest: Multiplayer, Join Game, Join IP, Enter Host IP",
+    "link": "https://store.steampowered.com/app/866570/System_Shock_2_25th_Anniversary_Remaster/"
+  },
+  {
+    "title": "Don't Starve Together",
+    "state": "supported",
+    "notes": "Host: (Everything will be set to LAN by default) Create lobby, Start Game.\nGuest: press \"~\" under ESC key to bring up the console, type: \"c_connect (\"HOST_IP\", 10999, \"HOST_PASSWD\")\"",
+    "link": "https://store.steampowered.com/app/322330/Dont_Starve_Together/"
+  },
+  {
+    "title": "GTR 2 FIA GT Racing Game",
+    "state": "unsupported",
+    "notes": "Related to crash: \"UserData\\Log\\Minidump\\GTR2_1.000-20250627.xxx.dmp\" when attempting to create profile name and host a lobby.\nGame is unplayable but has direct IP support for multiplayer",
+    "link": "https://store.steampowered.com/app/8790/GTR_2_FIA_GT_Racing_Game/"
+  },
+  {
+    "title": "HYPERCHARGE: Unboxed",
+    "state": "supported",
+    "notes": "Host: Play, LAN, Start Game (LAN)\nGuest: Play, LAN, Connect, Input Host IP.\n(Note: Once Host Disconnects, lobby can't be recreated, restart game on host to create a new lobby)",
+    "link": "https://store.steampowered.com/app/523660/HYPERCHARGE_Unboxed/"
+  },
+  {
+    "title": "Magicka",
+    "state": "unsupported",
+    "notes": "After the host sets up the lobby with LAN enabled, the guest is able to see the lobby, but the guest is blocked by the error message: \"authentication failed\" when attempting to join",
+    "link": "https://store.steampowered.com/app/42910/Magicka/"
+  },
+  {
+    "title": "FlatOut 2",
+    "state": "unsupported",
+    "notes": "Guest can't find host lobby in LAN mode. No Direct IP support options as bypass",
+    "link": "https://store.steampowered.com/app/2990/FlatOut_2/"
+  },
+  {
+    "title": "FlatOut",
+    "state": "unsupported",
+    "notes": "Guest can't find host lobby. No Direct IP support options as bypass",
+    "link": "https://store.steampowered.com/app/6220/FlatOut/"
+  },
+  {
+    "title": "Rise of the Triad: Ludicrous Edition",
+    "state": "supported",
+    "notes": "Host: CBG, LAN Game, Host Game, Start Lobby\nGuest: CBG, LAN Game, Join Game By Address, Input Host IP",
+    "link": "https://store.steampowered.com/app/1421490/Rise_of_the_Triad_Ludicrous_Edition/"
+  },
+  {
+    "title": "BallisticNG",
+    "state": "supported",
+    "notes": "Host: MP, Host IP, Enter, Start Lobby\nGuest: MP, Join IP, Enter HOST_IP, Join.",
+    "link": "https://store.steampowered.com/app/473770/BallisticNG/"
+  },
+  {
+    "title": "Dying Light",
+    "state": "unsupported",
+    "notes": "After completing the prologue on both accounts to set up multiplayer LAN mode, guests can see the host lobby and join, but abruptly disconnect when the game can't connect to Steam Servers.",
+    "link": "https://store.steampowered.com/app/239140/Dying_Light/"
+  },
+  {
+    "title": "Age of Empires II (Retired)",
+    "state": "unsupported",
+    "notes": "Entering Multiplayer is blocked by \"Steam needs to be online\" prompt, direct IP was supported by Gamespy version (Original), replaced with Steam's Networking API for the HD version.",
+    "link": "https://store.steampowered.com/app/221380/Age_of_Empires_II_Retired/"
+  },
+  {
+    "title": "Sid Meier’s Civilization® VI",
+    "state": "unsupported",
+    "notes": "Logged in to sign the in-game EULA, afterwards, when attempting to host a game offline, the lobby would not proceed beyond the game settings menu on LAN mode.",
+    "link": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/"
+  },
+  {
+    "title": "Lost Planet® 2",
+    "state": "unsupported",
+    "notes": "In System Link mode, errors with: \"You need to connect more than one PC with an Ethernet Cable for System Link Play\"\nno other workaround.",
+    "link": "https://store.steampowered.com/app/45750/Lost_Planet_2/"
+  },
+  {
+    "title": "Project Zomboid",
+    "state": "supported",
+    "notes": "Host & Guest: add \"-nosteam\" to launch option\nHost: Host, manage settings, E.S. details, public check & choose pass, start lobby\nGuest: Join, put host IP in, enter pass, account U&P, Join",
+    "link": "https://store.steampowered.com/app/108600/Project_Zomboid/"
+  },
+  {
+    "title": "Viscera Cleanup Detail",
+    "state": "supported",
+    "notes": "Host: Create MP Lobby.\nGuest: Join Multiplayer Game, Direct IP, Input host IP.",
+    "link": "https://store.steampowered.com/app/246900/Viscera_Cleanup_Detail/"
+  },
+  {
+    "title": "Halo: The Master Chief Collection",
+    "state": "informational",
+    "notes": "Playable (Online Login): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/664957578230408318/",
+    "link": "https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/"
+  },
+  {
+    "title": "The Forest",
+    "state": "unsupported",
+    "notes": "Hosting needs to be connected with Steam servers, goes through an endless loop as a result.",
+    "link": "https://store.steampowered.com/app/242760/The_Forest/"
+  },
+  {
+    "title": "7 Days to Die",
+    "state": "unsupported",
+    "notes": "After login to establish account connection.\nEven with EAC disabled on launch, any option for guests to join a game offline is greyed out once Steam is in Offline Mode.",
+    "link": "https://store.steampowered.com/app/251570/7_Days_to_Die/"
+  },
+  {
+    "title": "STAR WARS™ Battlefront II (Classic, 2005)",
+    "state": "unsupported",
+    "notes": "1.1 forces login to GOG Galaxy when selecting Multiplayer for any servers to be viewable, rolled back to 1.0 for LAN matches, creating multiplayer matches crashes the game.",
+    "link": "https://store.steampowered.com/app/6060/STAR_WARS_Battlefront_II_Classic_2005/"
+  },
+  {
+    "title": "Portal 2",
+    "state": "supported",
+    "notes": "Host: Open Console with STEAM + X and ' Key,\ntype \"map mp_coop_lobby_3\"\nGuest:\nOpen Console, type \"connect\" then followed by your host IP.",
+    "link": "https://store.steampowered.com/app/620/Portal_2/"
+  },
+  {
+    "title": "Team Fortress 2",
+    "state": "supported",
+    "notes": "Host: Find a Game, Create Server, Server Type: Local Network (LAN)\nGuest:\nEnable Console in Options -> Keyboard.\nOpen Console with ' button.\nType in \"connect\" then followed by the host IP.",
+    "link": "https://store.steampowered.com/app/440/Team_Fortress_2/"
+  },
+  {
+    "title": "Factorio",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Create Lobby.\nDisable Verified User Identity in Server Settings, Tags: LAN. Play.\nGuest:\nMultiplayer, Connect to address\nInput host IP address",
+    "link": "https://store.steampowered.com/app/427520/Factorio/"
+  },
+  {
+    "title": "Wreckfest",
+    "state": "unsupported",
+    "notes": "LAN scan can't find host lobbies offline, no direct IP option.\nDedicated servers are found on LAN, but block players from joining, no options allowing Steam Authentication to be disabled.",
+    "link": "https://store.steampowered.com/app/228380/Wreckfest/"
+  },
+  {
+    "title": "Baldur's Gate 3",
+    "state": "supported",
+    "notes": "Host: Create Multiplayer Game, Edit Session, LAN 'ON' Only.\nGuest: STEAM + RT to change UI, will show \"Direct Connect\" in MP. Click DC and type IP of host,\nhost can see guest joining.",
+    "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+  },
+  {
+    "title": "Killing Floor 2",
+    "state": "unsupported",
+    "notes": "Can't create lobby offline, LAN options are available only when connected to Tripwire servers.",
+    "link": "https://store.steampowered.com/app/232090/Killing_Floor_2/"
+  },
+  {
+    "title": "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Start Lobby, Start Game\nGuest: Multiplayer, Join Game, Input host IP (Found in Host Plugin) in the \"Join game at\"",
+    "link": "https://store.steampowered.com/app/3191050/BRAZILIAN_DRUG_DEALER_3_I_OPENED_A_PORTAL_TO_HELL_IN_THE_FAVELA_TRYING_TO_REVIVE_MIT_AIA_I_NEED_TO_CLOSE_IT/"
+  },
+  {
+    "title": "Duck Game",
+    "state": "unsupported",
+    "notes": "Host has to be online before creating a LAN lobby, Game crashes as a result.",
+    "link": "https://store.steampowered.com/app/312530/Duck_Game/"
+  },
+  {
+    "title": "Worms Armageddon",
+    "state": "supported",
+    "notes": "Host: Click \"Play Over LAN\", WORMNET (Config), Player Info: (Your IP) Port: 7777. Exit.\nClick LAN Game (Picture), Host.\nGuest: Click \"Play Over LAN\", Put Host IP in Bar Below, Hit \"Enter\"",
+    "link": "https://store.steampowered.com/app/217200/Worms_Armageddon/"
+  },
+  {
+    "title": "DOOM + DOOM II",
+    "state": "supported",
+    "notes": "Host & Guest: Choose Selected Game, Multiplayer, Continue (Don't Add Players), LAN.\nHost: Create Match, Start Lobby\nGuest: Join Match, Join Lobby.",
+    "link": "https://store.steampowered.com/app/2280/DOOM__DOOM_II/"
+  },
+  {
+    "title": "Stardew Valley",
+    "state": "supported",
+    "notes": "Host: Co-Op, Click \"Host\" Tab, Start The Mutliplayer Game.\nGuest: Co-Op, Click\" Join LAN Game, Enter HOST_IP, Click OK.",
+    "link": "https://store.steampowered.com/app/413150/Stardew_Valley/"
+  },
+  {
+    "title": "Barony",
+    "state": "supported",
+    "notes": "Host: Play Game, Host LAN Party.\nGuest: Play Game, Lobby Browser, Click \"LAN\" Tab, Join Lobby",
+    "link": "https://store.steampowered.com/app/371970/Barony/"
+  },
+  {
+    "title": "Terraria",
+    "state": "supported",
+    "notes": "Host: Multiplayer, Host & Play, Disable: Steam Multiplayer.\nGuest: Multiplayer, Join via IP,  Enter HOST_IP, Choose Default IP (7777)",
+    "link": "https://store.steampowered.com/app/105600/Terraria/"
+  },
+  {
+    "title": "No More Room in Hell",
+    "state": "supported",
+    "notes": "Host:\nCreate Server\nSelect Game tab and check \"LAN Only\"\nStart Lobby\nGuest:\nFind Servers\nSelect \"Lan\" tab\nRefresh",
+    "link": "https://store.steampowered.com/app/224260/No_More_Room_in_Hell/"
+  },
+  {
+    "title": "Abiotic Factor",
+    "state": "informational",
+    "notes": "Playable (Dedicated Server):\nView Muon Verified Discussion Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/506208224013316094/",
+    "link": "https://store.steampowered.com/app/427410/Abiotic_Factor/"
+  },
+  {
+    "title": "Synergy",
+    "state": "supported",
+    "notes": "Host: Create Server\nChoose \"LAN\" under Type\nStart Lobby\nGuest:\nFind Servers\nSelect \"Lan\" tab\nRefresh",
+    "link": "https://store.steampowered.com/app/17520/Synergy/"
+  },
+  {
+    "title": "Wreckfest 2",
+    "state": "unsupported",
+    "notes": "Despite direct local IP connection options, users must be online to use any multiplayer functionality.",
+    "link": "https://store.steampowered.com/app/1203190/Wreckfest_2/"
+  },
+  {
+    "title": "Killing Floor",
+    "state": "supported",
+    "notes": "Host:\nCreate a lobby,\nCheck \"LAN\" and select \"Listen\" to start lobby.\nGuest:\nFind Multiplayer\nChoose \"Lan\" tab.",
+    "link": "https://store.steampowered.com/app/1250/Killing_Floor/"
+  },
+  {
+    "title": "Resident Evil 5",
+    "state": "informational",
+    "notes": "Playable (LANFix Install):\nView Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/506208224013246843/",
+    "link": "https://store.steampowered.com/app/21690/Resident_Evil_5/"
+  },
+  {
+    "title": "Jabroni Brawl: Episode 3",
+    "state": "supported",
+    "notes": "Host:\nEnable Console in Keyboard & Mouse Settings, press ~ key under ESC button.\nType \"map \" then any map in the list.\nGuest:\nEnable Console as well, type \"connect\" followed by host IP.",
+    "link": "https://store.steampowered.com/app/869480/Jabroni_Brawl_Episode_3/"
+  },
+  {
+    "title": "Left 4 Dead 2",
+    "state": "supported",
+    "notes": "Host: Enable Console in Keyboard & Mouse Settings, open Console, type \"map\", select any map, Enter.\nGuest: A Steam Group Server option will appear on the main menu!",
+    "link": "https://store.steampowered.com/app/550/Left_4_Dead_2/"
+  },
+  {
+    "title": "Left 4 Dead",
+    "state": "supported",
+    "notes": "Host: Enable Console in Keyboard & Mouse Settings, open Console, type \"map\", select any map, Enter.\nGuest: A Steam Group Server option will appear on the main menu!",
+    "link": "https://store.steampowered.com/app/500/Left_4_Dead/"
+  },
+  {
+    "title": "Counter-Strike",
+    "state": "supported",
+    "notes": "Host: Create Server\nEnable: \"Use Steam Networking\"\nStart Game\nGuest: Find Servers\nSelect \"Lan\" tab\nHit Refresh.",
+    "link": "https://store.steampowered.com/app/10/CounterStrike/"
+  },
+  {
+    "title": "Counter-Strike: Source",
+    "state": "supported",
+    "notes": "Host: Create Server\nEnable: \"Use Steam Networking\"\nStart Game\nGuest: Find Servers\nSelect \"Lan\" tab\nHit Refresh.",
+    "link": "https://store.steampowered.com/app/240/CounterStrike_Source/"
+  },
+  {
+    "title": "Garry's Mod",
+    "state": "supported",
+    "notes": "Host: Start New Game\nChange \"Single Player\" to \"2+ Players\"\nSelect \"Local Server\"\nStart Game\nGuest: Find Multiplayer Game\nSelect Local Network",
+    "link": "https://store.steampowered.com/app/4000/Garrys_Mod/"
+  },
+  {
+    "title": "KLETKA",
+    "state": "supported",
+    "notes": "Host: Play, Host, Network Mode: OFFLINE, Start\nGuest: Play, Find Sessions, Join Via IP,\nEnter HOST_IP.",
+    "link": "https://store.steampowered.com/app/1699480/KLETKA/"
+  },
+  {
+    "title": "Lethal Company",
+    "state": "informational",
+    "notes": "Playable (Mod Install): View Muon Verified Discussions Page to get set up: https://steamcommunity.com/groups/muonverified/discussions/0/591772989273459241/",
+    "link": "https://store.steampowered.com/app/1966720/Lethal_Company/"
+  },
+  {
+    "title": "Call of Duty® 4: Modern Warfare® (2007)",
+    "state": "informational",
+    "notes": "Playable (Dedicated Server): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/591777299172463321/",
+    "link": "https://store.steampowered.com/app/7940/Call_of_Duty_4_Modern_Warfare_2007/"
+  },
+  {
+    "title": "Tom Clancy's Splinter Cell Chaos Theory®",
+    "state": "supported",
+    "notes": "Host & Guest:\nCo-Op: Choose \"Co-Op\" and hit \"LAN\" after.\nVerses: Create a profile then select Play on LAN",
+    "link": "https://store.steampowered.com/app/13570/Tom_Clancys_Splinter_Cell_Chaos_Theory/"
+  },
+  {
+    "title": "Tom Clancy's Rainbow Six® Vegas 2",
+    "state": "supported",
+    "notes": "Host & Guest:\nChoose either \"Story\" \"Terrorist Hunt\" or \"Verses\".\nPick \"LAN\"\nHost: Host a Match\nGuest: Join a Match",
+    "link": "https://store.steampowered.com/app/15120/Tom_Clancys_Rainbow_Six_Vegas_2/"
+  },
+  {
+    "title": "Quake III Arena",
+    "state": "supported",
+    "notes": "Host:\nChoose: \"Multiplayer\"\nMultiplayer Settings:\nServers: Local\nPunkbuster: Disabled\nCreate match.\nGuest:\nSelect Multiplayer\nSelect Refresh\nWhen server shows up, Select: FIGHT",
+    "link": "https://store.steampowered.com/app/2200/Quake_III_Arena/"
+  }
+]
