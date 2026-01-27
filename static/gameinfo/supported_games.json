@@ -116,13 +116,13 @@
   {
     "title": "Your Only Move Is HUSTLE",
     "state": "supported",
-    "notes": "2 Players.\nHost: Direct Connect, Select Name, Type in Host IP in IP Bar (Leave Port as Default), Host\nGuest: Direct Connect, Select Name, Type in Host IP in IP Bar, Join.",
+    "notes": "2 Players.\nHost: Direct Connect, Select Name, Type in HOST_IP in bar (Leave Port as Default), Host\nGuest: Direct Connect, Select Name, Type HOST_IP in Bar, Join.",
     "link": "https://store.steampowered.com/app/2212330/Your_Only_Move_Is_HUSTLE/"
   },
   {
     "title": "Bytebond",
     "state": "supported",
-    "notes": "2 Players.\nHost: Network Co-Op, LAN, Host\nGuest: Network Co-Op, LAN, Join, Input Host IP, Enter",
+    "notes": "2 Players.\nHost: Network Co-Op, LAN, Host\nGuest: Network Co-Op, LAN, Join, Input HOST_IP, Enter",
     "link": "https://store.steampowered.com/app/1952690/Bytebond/"
   },
   {
@@ -182,19 +182,19 @@
   {
     "title": "Classic Marathon Infinity",
     "state": "supported",
-    "notes": "2-8 Players.\nHost: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input host IP in bar below, Join Local Game.",
+    "notes": "2-8 Players.\nHost: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input HOST_IP in bar below, Join Local Game.",
     "link": "https://store.steampowered.com/app/2398520/Classic_Marathon_Infinity/"
   },
   {
     "title": "Classic Marathon 2",
     "state": "supported",
-    "notes": "2-8 Players.\nHost: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input host IP in bar below, Join Local Game.",
+    "notes": "2-8 Players.\nHost: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input HOST_IP in bar below, Join Local Game.",
     "link": "https://store.steampowered.com/app/2398490/Classic_Marathon_2/"
   },
   {
     "title": "Classic Marathon",
     "state": "supported",
-    "notes": "2-8 Players.\nHost: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input host IP in bar below, Join Local Game.",
+    "notes": "2-8 Players.\nHost: Gather Network Game, Check 'Configure UPnP Router', OK, Check Auto-Gather.\nGuest: Join Network Game, Check 'Join by address', input HOST_IP in bar below, Join Local Game.",
     "link": "https://store.steampowered.com/app/2398450/Classic_Marathon/"
   },
   {
@@ -212,7 +212,7 @@
   {
     "title": "Little Fighter 2 Remastered",
     "state": "informational",
-    "notes": "2-8 Players.\nPlayable (Dedicated Server):\nHost: Network Play, Start a Private Server, Change port to: 7777, Start.\nGuest: Network Play, Join a Private Server, Enter Name, Host IP, and 7777 for port.",
+    "notes": "2-8 Players.\nPlayable (Dedicated Server):\nHost: Network Play, Start a Private Server, Change port to: 7777, Start.\nGuest: Network Play, Join a Private Server, Enter Name, HOST_IP, and 7777 for port.",
     "link": "https://store.steampowered.com/app/3249650/Little_Fighter_2_Remastered/"
   },
   {
@@ -242,7 +242,7 @@
   {
     "title": "Low Light Combat",
     "state": "supported",
-    "notes": "2-10 Players.\nHost: Play, Host, Check 'LAN', Host\nGuest: Play, Direct IP, input Host IP.",
+    "notes": "2-10 Players.\nHost: Play, Host, Check 'LAN', Host\nGuest: Play, Direct IP, input HOST_IP.",
     "link": "https://store.steampowered.com/app/1696820/Low_Light_Combat/"
   },
   {
@@ -260,19 +260,19 @@
   {
     "title": "House Flipper 2",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: Co-Op, Host, Switch to LAN, Create.\nGuest: Co-Op, Join, Input Host IP.",
+    "notes": "2-4 Players.\nHost: Co-Op, Host, Switch to LAN, Create.\nGuest: Co-Op, Join, Input HOST_IP.",
     "link": "https://store.steampowered.com/app/1190970/House_Flipper_2/"
   },
   {
     "title": "Borderlands Game of the Year Enhanced",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: LAN Game, Host Public Game, OK, Wait for Guest Launch.\nGuest: Input Host IP in Launch Options on Steam, Launch Game.\n(Note: Enhanced version does not work with Direct IP, make sure users are using GoTY Edition When Prompted after launch)",
+    "notes": "2-4 Players.\nHost: LAN Game, Host Public Game, OK, Wait for Guest Launch.\nGuest: Input HOST_IP in Launch Options on Steam, Launch Game.\n(Note: Enhanced version does not work with Direct IP, make sure users are using GoTY Edition When Prompted after launch)",
     "link": "https://store.steampowered.com/app/729040/Borderlands_Game_of_the_Year_Enhanced/"
   },
   {
     "title": "Cry of Fear",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: Host Server, Game Tab, Check \"LAN Server\", Start\nGuest: Press '~' Key Under ESC Key, type 'connect' then type the Host IP in the console, hit enter to join game.",
+    "notes": "2-4 Players.\nHost: Host Server, Game Tab, Check \"LAN Server\", Start\nGuest: Press '~' Key Under ESC Key, type 'connect' then type the HOST_IP in the console, hit enter to join game.",
     "link": "https://store.steampowered.com/app/223710/Cry_of_Fear/"
   },
   {
@@ -314,7 +314,7 @@
   {
     "title": "Satisfactory",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: New Game/Continue, MP Settings, Session Type: IP, Start Game.\nGuest: Join Game, join game directly, input Host IP. (Note: will be hidden, but does work!)",
+    "notes": "2-4 Players.\nHost: New Game/Continue, MP Settings, Session Type: IP, Start Game.\nGuest: Join Game, join game directly, input HOST_IP. (Note: will be hidden, but does work!)",
     "link": "https://store.steampowered.com/app/526870/Satisfactory/"
   },
   {
@@ -326,7 +326,7 @@
   {
     "title": "V Rising",
     "state": "supported",
-    "notes": "2-10 Players.\nHost: Play, Private Game, Game Settings, Check 'LAN Server, Save, Start Game\nGuest: Play, Online Play, Direct Connect Option, Enter Host IP",
+    "notes": "2-10 Players.\nHost: Play, Private Game, Game Settings, Check 'LAN Server, Save, Start Game\nGuest: Play, Online Play, Direct Connect Option, Enter HOST_IP",
     "link": "https://store.steampowered.com/app/1604030/V_Rising/"
   },
   {
@@ -338,7 +338,7 @@
   {
     "title": "Divinity: Original Sin - Enhanced Edition",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: Continue/New Game, Multiplayer, Wait in Lobby.\nGuest: Join, Press Direct IP Button, Input Host IP.",
+    "notes": "2-4 Players.\nHost: Continue/New Game, Multiplayer, Wait in Lobby.\nGuest: Join, Press Direct IP Button, Input HOST_IP.",
     "link": "https://store.steampowered.com/app/373420/Divinity_Original_Sin__Enhanced_Edition/"
   },
   {
@@ -356,13 +356,13 @@
   {
     "title": "Divinity: Original Sin 2 - Definitive Edition",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: Campaign, Host Online Match, Wait in Lobby.\nGuest: Campaign, Join Online Match, Press Direct IP Button, Input Host IP.",
+    "notes": "2-4 Players.\nHost: Campaign, Host Online Match, Wait in Lobby.\nGuest: Campaign, Join Online Match, Press Direct IP Button, Input HOST_IP.",
     "link": "https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/"
   },
   {
     "title": "System Shock 2: 25th Anniversary Remaster",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: Multiplayer, Host Game.\nGuest: Multiplayer, Join Game, Join IP, Enter Host IP",
+    "notes": "2-4 Players.\nHost: Multiplayer, Host Game.\nGuest: Multiplayer, Join Game, Join IP, Enter HOST_IP",
     "link": "https://store.steampowered.com/app/866570/System_Shock_2_25th_Anniversary_Remaster/"
   },
   {
@@ -380,7 +380,7 @@
   {
     "title": "HYPERCHARGE: Unboxed",
     "state": "supported",
-    "notes": "2-8 Players.\nHost: Play, LAN, Start Game (LAN)\nGuest: Play, LAN, Connect, Input Host IP.\n(Note: Once Host Disconnects, lobby can't be recreated, restart game on host to create a new lobby)",
+    "notes": "2-8 Players.\nHost: Play, LAN, Start Game (LAN)\nGuest: Play, LAN, Connect, Input HOST_IP.\n(Note: Once Host Disconnects, lobby can't be recreated, restart game on host to create a new lobby)",
     "link": "https://store.steampowered.com/app/523660/HYPERCHARGE_Unboxed/"
   },
   {
@@ -446,7 +446,7 @@
   {
     "title": "Viscera Cleanup Detail",
     "state": "supported",
-    "notes": "2-32 Players.\nHost: Create MP Lobby.\nGuest: Join Multiplayer Game, Direct IP, Input host IP.",
+    "notes": "2-32 Players.\nHost: Create MP Lobby.\nGuest: Join Multiplayer Game, Direct IP, Input HOST_IP.",
     "link": "https://store.steampowered.com/app/246900/Viscera_Cleanup_Detail/"
   },
   {
@@ -476,19 +476,19 @@
   {
     "title": "Portal 2",
     "state": "supported",
-    "notes": "2 Players.\nHost: Open Console with STEAM + X and ' Key,\ntype \"map mp_coop_lobby_3\"\nGuest:\nOpen Console, type \"connect\" then followed by your host IP.",
+    "notes": "2 Players.\nHost: Open Console with STEAM + X and ~ under ESC Key, type \"map mp_coop_lobby_3\"\nGuest: Open Console, type \"connect\" then followed by HOST_IP.",
     "link": "https://store.steampowered.com/app/620/Portal_2/"
   },
   {
     "title": "Team Fortress 2",
     "state": "supported",
-    "notes": "2-32 Players.\nHost: Find a Game, Create Server, Server Type: Local Network (LAN)\nGuest:\nEnable Console in Options -> Keyboard.\nOpen Console with ' button.\nType in \"connect\" then followed by the host IP.",
+    "notes": "2-32 Players.\nHost: Find a Game, Create Server, Server Type: Local Network (LAN)\nGuest: Enable Console in Options -> Keyboard, Open Console with ~ under ESC key, Type in \"connect\" then HOST_IP.",
     "link": "https://store.steampowered.com/app/440/Team_Fortress_2/"
   },
   {
     "title": "Factorio",
     "state": "supported",
-    "notes": "2-100 Players.\nHost: Multiplayer, Create Lobby.\nDisable Verified User Identity in Server Settings, Tags: LAN. Play.\nGuest:\nMultiplayer, Connect to address\nInput host IP address",
+    "notes": "2-100 Players.\nHost: Multiplayer, Create Lobby, Disable Verified User Identity in Server Settings, Tags: LAN. Play.\nGuest: Multiplayer, Connect to address, input HOST_IP",
     "link": "https://store.steampowered.com/app/427520/Factorio/"
   },
   {
@@ -500,7 +500,7 @@
   {
     "title": "Baldur's Gate 3",
     "state": "supported",
-    "notes": "2-4 Players.\nHost: Create Multiplayer Game, Edit Session, LAN 'ON' Only.\nGuest: STEAM + RT to change UI, will show \"Direct Connect\" in MP. Click DC and type IP of host,\nhost can see guest joining.",
+    "notes": "2-4 Players.\nHost: Create Multiplayer Game, Edit Session, LAN 'ON' Only.\nGuest: STEAM + RT to change UI, will show \"Direct Connect\" in MP. Click DC and type IP of host, host can see guest joining.",
     "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
   },
   {
@@ -524,7 +524,7 @@
   {
     "title": "Worms Armageddon",
     "state": "supported",
-    "notes": "2-6 Players.\nHost: Click \"Play Over LAN\", WORMNET (Config), Player Info: (Your IP) Port: 7777. Exit.\nClick LAN Game (Picture), Host.\nGuest: Click \"Play Over LAN\", Put Host IP in Bar Below, Hit \"Enter\"",
+    "notes": "2-6 Players.\nHost: Click \"Play Over LAN\", WORMNET (Config), Player Info: (Your IP) Port: 7777. Exit, Click LAN Game (Picture), Host.\nGuest: Click \"Play Over LAN\", Put Host IP in Bar Below, Hit \"Enter\"",
     "link": "https://store.steampowered.com/app/217200/Worms_Armageddon/"
   },
   {
@@ -554,7 +554,7 @@
   {
     "title": "No More Room in Hell",
     "state": "supported",
-    "notes": "2-8 Players.\nHost:\nCreate Server\nSelect Game tab and check \"LAN Only\"\nStart Lobby\nGuest:\nFind Servers\nSelect \"Lan\" tab\nRefresh",
+    "notes": "2-8 Players.\nHost: Create Server, Select Game tab and check \"LAN Only\", Start Lobby\nGuest: Find Servers, Select \"Lan\" tab, Refresh",
     "link": "https://store.steampowered.com/app/224260/No_More_Room_in_Hell/"
   },
   {
@@ -566,7 +566,7 @@
   {
     "title": "Synergy",
     "state": "supported",
-    "notes": "2-32 Players.\nHost: Create Server\nChoose \"LAN\" under Type\nStart Lobby\nGuest:\nFind Servers\nSelect \"Lan\" tab\nRefresh",
+    "notes": "2-32 Players.\nHost: Create Server, Choose \"LAN\" under Type, Start Lobby\nGuest: Find Servers, Select \"Lan\" tab, Refresh, Join HOST Server",
     "link": "https://store.steampowered.com/app/17520/Synergy/"
   },
   {
@@ -578,7 +578,7 @@
   {
     "title": "Killing Floor",
     "state": "supported",
-    "notes": "2-6 Players.\nHost:\nCreate a lobby,\nCheck \"LAN\" and select \"Listen\" to start lobby.\nGuest:\nFind Multiplayer\nChoose \"Lan\" tab.",
+    "notes": "2-6 Players.\nHost: Create a lobby, Check \"LAN\" and select \"Listen\" to start lobby.\nGuest: Find Multiplayer, Choose \"Lan\" tab, Join HOST Lobby.",
     "link": "https://store.steampowered.com/app/1250/Killing_Floor/"
   },
   {
@@ -590,7 +590,7 @@
   {
     "title": "Jabroni Brawl: Episode 3",
     "state": "supported",
-    "notes": "2-16 Players.\nHost:\nEnable Console in Keyboard & Mouse Settings, press ~ key under ESC button.\nType \"map \" then any map in the list.\nGuest:\nEnable Console as well, type \"connect\" followed by host IP.",
+    "notes": "2-16 Players.\nHost: Enable Console in Keyboard & Mouse Settings, press ~ key under ESC button. Type \"map \" then any map in the list.\nGuest: Enable Console as well, type \"connect\" followed by host IP.",
     "link": "https://store.steampowered.com/app/869480/Jabroni_Brawl_Episode_3/"
   },
   {
@@ -608,25 +608,25 @@
   {
     "title": "Counter-Strike",
     "state": "supported",
-    "notes": "2-10 Players.\nHost: Create Server\nEnable: \"Use Steam Networking\"\nStart Game\nGuest: Find Servers\nSelect \"Lan\" tab\nHit Refresh.",
+    "notes": "2-10 Players.\nHost: Create Server, Enable: \"Use Steam Networking\", Start Game\nGuest: Find Servers, Select \"Lan\" tab, Hit Refresh, Join HOST Server",
     "link": "https://store.steampowered.com/app/10/CounterStrike/"
   },
   {
     "title": "Counter-Strike: Source",
     "state": "supported",
-    "notes": "2-32 Players.\nHost: Create Server\nEnable: \"Use Steam Networking\"\nStart Game\nGuest: Find Servers\nSelect \"Lan\" tab\nHit Refresh.",
+    "notes": "2-32 Players.\nHost: Create Server, Enable: \"Use Steam Networking\", Start Game\nGuest: Find Servers, Select \"Lan\" tab, Hit Refresh, Join HOST Server",
     "link": "https://store.steampowered.com/app/240/CounterStrike_Source/"
   },
   {
     "title": "Garry's Mod",
     "state": "supported",
-    "notes": "2-64 Players.\nHost: Start New Game\nChange \"Single Player\" to \"2+ Players\"\nSelect \"Local Server\"\nStart Game\nGuest: Find Multiplayer Game\nSelect Local Network",
+    "notes": "2-64 Players.\nHost: Start New Game, Change \"Single Player\" to \"2+ Players\", Select \"Local Server\", Start Game\nGuest: Find Multiplayer Game, Select Local Network, Join HOST Server",
     "link": "https://store.steampowered.com/app/4000/Garrys_Mod/"
   },
   {
     "title": "KLETKA",
     "state": "supported",
-    "notes": "2-6 Players.\nHost: Play, Host, Network Mode: OFFLINE, Start\nGuest: Play, Find Sessions, Join Via IP,\nEnter HOST_IP.",
+    "notes": "2-6 Players.\nHost: Play, Host, Network Mode: OFFLINE, Start\nGuest: Play, Find Sessions, Join Via IP, Enter HOST_IP.",
     "link": "https://store.steampowered.com/app/1699480/KLETKA/"
   },
   {
@@ -644,19 +644,19 @@
   {
     "title": "Tom Clancy's Splinter Cell Chaos Theory®",
     "state": "supported",
-    "notes": "2-4 Players.\nHost & Guest:\nCo-Op: Choose \"Co-Op\" and hit \"LAN\" after.\nVerses: Create a profile then select Play on LAN",
+    "notes": "2-4 Players.\nHost & Guest: Co-Op: Choose \"Co-Op\" and hit \"LAN\" after, Verses: Create a profile then select Play on LAN",
     "link": "https://store.steampowered.com/app/13570/Tom_Clancys_Splinter_Cell_Chaos_Theory/"
   },
   {
     "title": "Tom Clancy's Rainbow Six® Vegas 2",
     "state": "supported",
-    "notes": "2-4 Players.\nHost & Guest:\nChoose either \"Story\" \"Terrorist Hunt\" or \"Verses\".\nPick \"LAN\"\nHost: Host a Match\nGuest: Join a Match",
+    "notes": "2-4 Players.\nHost & Guest: Choose either \"Story\" \"Terrorist Hunt\" or \"Verses\", Pick \"LAN\"\nHost: Host a Match, Guest: Join a Match",
     "link": "https://store.steampowered.com/app/15120/Tom_Clancys_Rainbow_Six_Vegas_2/"
   },
   {
     "title": "Quake III Arena",
     "state": "supported",
-    "notes": "2-16 Players.\nHost:\nChoose: \"Multiplayer\"\nMultiplayer Settings:\nServers: Local\nPunkbuster: Disabled\nCreate match.\nGuest:\nSelect Multiplayer\nSelect Refresh\nWhen server shows up, Select: FIGHT",
+    "notes": "2-16 Players.\nHost: Choose: \"Multiplayer\", Multiplayer Settings: Servers: Local, Punkbuster: Disabled, Create match.\nGuest: Select Multiplayer, Select Refresh, Select: FIGHT on HOST Server",
     "link": "https://store.steampowered.com/app/2200/Quake_III_Arena/"
   }
 ]
