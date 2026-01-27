@@ -8,7 +8,7 @@
   {
     "title": "The Riftbreaker",
     "state": "supported",
-    "notes": "Host: Multiplayer, Host/Load Game, Create Game Lobby.\nGuest: Multiplayer, Join Game, Join With Link, Enter HOST_IP, Connect.",
+    "notes": "2-4 Players.\nHost: Multiplayer, Host/Load Game, Create Game Lobby.\nGuest: Multiplayer, Join Game, Join With Link, Enter HOST_IP, Connect.",
     "link": "https://store.steampowered.com/app/780310/The_Riftbreaker/"
   },
   {
@@ -26,7 +26,7 @@
   {
     "title": "Crypt of the NecroDancer",
     "state": "supported",
-    "notes": "(Synchrony DLC)\nHost: Multiplayer, Host Online Game, Visibility: IP Address, Server Port: 7777, Host Game.\nGuest: Multiplayer, Connect to IP Address, HOST_IP, Server Port: 7777, Connect.",
+    "notes": "(Synchrony DLC)\n 2-8 Players.\n Co-Op.\n Host: Multiplayer, Host Online Game, Visibility: IP Address, Server Port: 7777, Host Game.\nGuest: Multiplayer, Connect to IP Address, HOST_IP, Server Port: 7777, Connect.",
     "link": "https://store.steampowered.com/app/247080/Crypt_of_the_NecroDancer/"
   },
   {
