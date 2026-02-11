@@ -1,5 +1,65 @@
 [
   {
+    "title": "Streets of Rogue",
+    "state": "supported",
+    "notes":  "2-4 Players.\nHost: Start Game, Online, LAN Game, Enter Name, Start Game.\nGuest: Start Game, Online, LAN Game, Enter Name, Switch join IP address to HOST_IP, Join.",
+    "link": "https://store.steampowered.com/app/512900/Streets_of_Rogue/"
+  }, 
+ {
+    "title": "Alien Swarm: Reactive Drop",
+    "state": "supported",
+    "notes":  "2-8 Players.\nHost: Enable Developer Console in Options, press '~' key under ESC, type: 'sv_lan 1' then submit, then type: 'map ' then select any of the avaliable maps, Submit.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, Press '~' under ESC button, type 'connect HOST_IP', Submit.\nNote: You can change the level and/or game type by calling a vote in the menu",
+    "link": "https://store.steampowered.com/app/563560/Alien_Swarm_Reactive_Drop/"
+  }, 
+{
+    "title": "Atlyss",
+    "state": "unsupported",
+    "notes": "After Selecting a Character, the prompt 'Lobby creation failed - k_EResultNoConnect' will appear and soft-lock the game. \nA mod for dedicated servers (via BepinEX) will function for online only.",
+    "link": "https://store.steampowered.com/app/2768430/ATLYSS/"
+  },
+{
+    "title": "Angels Fall First",
+    "state": "unsupported",
+    "notes": "Guests using Direct IP to connect into the Hosted LAN server will cause the host's game to crash.",
+    "link": "https://store.steampowered.com/app/367270/Angels_Fall_First/"
+  },
+{
+    "title": "Sons of the Forest",
+    "state": "unsupported",
+    "notes": "Direct IP and LAN searches will not find the lobby, needs to be connected to Steam Networking API both for local and dedicated servers to be found.",
+    "link": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/"
+  },
+{
+    "title": "Halo: Infinite",
+    "state": "unsupported",
+    "notes": "After doing the online login process, multiplayer is blocked. You can create a custom game mode and have a dedicated server cmd pop up, however the maps are all tied to online forge maps.",
+    "link": "https://store.steampowered.com/app/1240440/Halo_Infinite/"
+  },
+ {
+    "title": "Team Fortress 2 Classified",
+    "state": "supported",
+    "notes":  "2-32 Players.\nHost: Create Server, --, Start.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, Press '~' under ESC button, type 'connect HOST_IP', Submit.\nNote: Team Fortress 2 needs to be in the libaray and installed on both host and guest devices to launch",
+    "link": "https://store.steampowered.com/app/3545060/Team_Fortress_2_Classified/"
+  }, 
+  {
+    "title": "Bronzebeard's Tavern",
+    "state": "unsupported",
+    "notes": "While having options to enable LAN only lobbies and search results, guests can not find host lobby in the browser menu. \nLAN matches are tied to Epic's online service for connection.",
+    "link": "https://store.steampowered.com/app/2422870/Bronzebeards_Tavern/"
+  },
+  {
+    "title": "DDrace Network (DDNet)",
+    "state": "supported",
+    "notes":  "2-64 Players.\nHost: Play, In Server Address: HOST_IP:8303, --, Hit Green Button.\nGuest: Play, In Server Address: HOST_IP:8303, Hit Green Button.",
+    "link": "https://store.steampowered.com/app/412220/DDNet/"
+  }, 
+  {
+    "title": "Pirates, Vikings & Knights II",
+    "state": "supported",
+    "notes":  "2-32 Players.\nHost: Create Game, Host Server, in Game Tab enable 'LAN Server', --, Start.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, Press '~' under ESC button, type 'connect HOST_IP', Submit.",
+    "link": "https://store.steampowered.com/app/17570/Pirates_Vikings__Knights_II/"
+  }, 
+  {
     "title": "Homeworld Remastered Collection",
     "state": "unsupported",
     "notes": "Network unavailable message will occur when creating a LAN lobby. LAN play is not available in the Remastered Collection, both Online and Offline.",
@@ -14,7 +74,7 @@
   {
     "title": "Red Faction",
     "state": "supported",
-    "notes": "(Setup: Network, T1/LAN)\n 2-32 Players.\nHost: Multi, Create Game, Start\nGuest: Multi, Join Game, Press the LAN Only Button, Lobby Will Appear, Join.",
+    "notes": "(Setup: Network, T1/LAN)\n 2-32 Players.\nHost: Multi, Create Game, Start.\nGuest: Multi, Join Game, Press the LAN Only Button, Lobby Will Appear, Join.",
     "link": "https://store.steampowered.com/app/20530/Red_Faction/"
   },
   {
