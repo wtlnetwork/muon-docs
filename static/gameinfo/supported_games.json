@@ -146,7 +146,9 @@
   {
     "title": "Call of Duty: World at War",
     "state": "informational",
-    "notes": "2-32 Players.\nPlayable (Dedicated Server): View Muon Verified Discussion Pages to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/688615792191837784/",
+    "variable_players": "2-32 Players",
+    "short_description": "Playable: Dedicated Server",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/688615792191837784/",
     "link": "https://store.steampowered.com/app/10090/Call_of_Duty_World_at_War/"
   },
   {
@@ -272,7 +274,9 @@
   {
     "title": "Little Fighter 2 Remastered",
     "state": "informational",
-    "notes": "2-8 Players.\nPlayable (Dedicated Server):\nHost: Network Play, Start a Private Server, Change port to: 7777, Start.\nGuest: Network Play, Join a Private Server, Enter Name, HOST_IP, and 7777 for port.",
+    "variable_players": "2-8 Players",
+    "short_description": "Playable: Dedicated Server",
+    "notes": "Host: Network Play, Start a Private Server, Change port to: 7777, Start.\nGuest: Network Play, Join a Private Server, Enter Name, HOST_IP, and 7777 for port.",
     "link": "https://store.steampowered.com/app/3249650/Little_Fighter_2_Remastered/"
   },
   {
@@ -290,7 +294,9 @@
   {
     "title": "Unturned",
     "state": "informational",
-    "notes": "2-24 Players.\nPlayable (Dedicated Server): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/591777299172449269/",
+    "variable_players": "2-24 Players",
+    "short_description": "Playable: Dedicated Server",
+    "notes": "View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/591777299172449269/",
     "link": "https://store.steampowered.com/app/304930/Unturned/"
   },
   {
@@ -356,7 +362,9 @@
   {
     "title": "STAR WARS™ Battlefront (Classic, 2004)",
     "state": "informational",
-    "notes": "2-32 Players.\nPlayable (Mod Install): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/591777615946325662/",
+    "variable_players": "2-32 Players",
+    "short_description": "Playable: Mod Install",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/591777615946325662/",
     "link": "https://store.steampowered.com/app/1058020/STAR_WARS_Battlefront_Classic_2004/"
   },
   {
@@ -380,7 +388,9 @@
   {
     "title": "Valheim",
     "state": "informational",
-    "notes": "2-10 Players.\nPlayable (Dedicated Server):\nView Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/506208224013366302/",
+    "variable_players": "2-10 Players",
+    "short_description": "Playable: Dedicated Server",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/506208224013366302/",
     "link": "https://store.steampowered.com/app/892970/Valheim/"
   },
   {
@@ -512,7 +522,9 @@
   {
     "title": "Halo: The Master Chief Collection",
     "state": "informational",
-    "notes": "2-16 Players.\nPlayable (Online Login): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/664957578230408318/",
+    "variable_players": "2-16 Players",
+    "short_description": "Playable: Online Login",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/664957578230408318/",
     "link": "https://store.steampowered.com/app/976730/Halo_The_Master_Chief_Collection/"
   },
   {
@@ -620,7 +632,9 @@
   {
     "title": "Abiotic Factor",
     "state": "informational",
-    "notes": "2-6 Players.\nPlayable (Dedicated Server):\nView Muon Verified Discussion Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/506208224013316094/",
+    "variable_players": "2-6 Players",
+    "short_description": "Playable: Dedicated Server",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/506208224013316094/",
     "link": "https://store.steampowered.com/app/427410/Abiotic_Factor/"
   },
   {
@@ -643,8 +657,10 @@
   },
   {
     "title": "Resident Evil 5",
+    "variable_players": "2 Players",
+    "short_description": "Playable: LANFix Mod",
     "state": "informational",
-    "notes": "2 Players.\nPlayable (LANFix Install):\nView Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/506208224013246843/",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/506208224013246843/",
     "link": "https://store.steampowered.com/app/21690/Resident_Evil_5/"
   },
   {
@@ -692,13 +708,17 @@
   {
     "title": "Lethal Company",
     "state": "informational",
-    "notes": "2-4 Players.\nPlayable (Mod Install): View Muon Verified Discussions Page to get set up: https://steamcommunity.com/groups/muonverified/discussions/0/591772989273459241/",
+    "variable_players": "2-4+ Players",
+    "short_description": "Playable: Mod Install",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/591772989273459241/",
     "link": "https://store.steampowered.com/app/1966720/Lethal_Company/"
   },
   {
     "title": "Call of Duty® 4: Modern Warfare® (2007)",
     "state": "informational",
-    "notes": "2-64 Players.\nPlayable (Dedicated Server): View Muon Verified Discussions Page to get set up:\nhttps://steamcommunity.com/groups/muonverified/discussions/0/591777299172463321/",
+    "variable_players": "2-32 Players",
+    "short_description": "Playable: Dedicated Server",
+    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/591777299172463321/",
     "link": "https://store.steampowered.com/app/7940/Call_of_Duty_4_Modern_Warfare_2007/"
   },
   {
