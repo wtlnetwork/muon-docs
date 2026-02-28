@@ -121,6 +121,11 @@ function escapeHtml(text) {
     .replace(/>/g, "&gt;");
 }
 
+function linkify(text) {
+  const urlRegex = /(https?:\/\/[^\s<]+)/g;
+  return text.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener" class="text-blue-400 hover:underline">$1</a>');
+}
+
 function render() {
   const search = document.getElementById("search").value.toLowerCase();
   const state = document.getElementById("stateFilter").value;
@@ -144,12 +149,40 @@ function render() {
     tr.className = rowClass(g.state);
 
     tr.innerHTML = `
-      <td class="px-4 py-2" data-label="Title">
-        <div class="font-medium title-text">
-          ${g.title}
-        </div>
-        <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs">
-          ${escapeHtml(g.notes).replace(/\n/g, "<br>")}
+    <td class="px-4 py-2" data-label="Title">
+        <div class="flex items-start gap-2 ${g.state === 'informational' && g.notes ? 'cursor-pointer group' : ''}" ${g.state === 'informational' && g.notes ? `onclick="toggleInfo(${index})"` : ''}>
+          ${g.state === 'informational' && g.notes ? `
+            <div class="mt-1 p-0.5 rounded text-slate-400 group-hover:text-white transition-colors print:hidden flex-shrink-0">
+              <svg id="chevron-${index}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 1rem; height: 1rem;" class="transition-transform duration-200">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </div>
+          ` : `
+            <div class="flex-shrink-0 print:hidden" style="width: 1rem; height: 1rem;"></div>
+          `}
+          <div class="w-full">
+            <div class="font-medium title-text ${g.state === 'informational' && g.notes ? 'group-hover:text-blue-400 transition-colors' : ''}">
+              ${g.title}
+            </div>
+            ${g.variable_players ? `
+              <div class="mt-0.5 text-xs text-slate-500 font-semibold">
+                ${escapeHtml(g.variable_players)}
+              </div>
+            ` : ""}
+            <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs">
+              ${g.short_description ? escapeHtml(g.short_description).replace(/\n/g, "<br>") : ""}
+            </div>
+            
+            ${g.state === 'informational' && g.notes ? `
+              <div id="more-info-${index}" class="hidden mt-3 p-3 bg-slate-900/80 rounded border border-slate-700 text-sm text-slate-300 leading-relaxed break-all cursor-auto" onclick="event.stopPropagation()">
+                ${linkify(escapeHtml(g.notes).replace(/\n/g, "<br>"))}
+              </div>
+            ` : g.notes ? `
+              <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs break-all">
+                ${linkify(escapeHtml(g.notes).replace(/\n/g, "<br>"))}
+              </div>
+            ` : ""}
+          </div>
         </div>
       </td>
 
@@ -159,29 +192,30 @@ function render() {
 
       <td class="px-4 py-2" data-label="Link">
         ${g.state === "unsupported" ? "" : `
-        <div class="flex items-center gap-3 print:hidden">
-          <a
-            href="${g.link}"
-            target="_blank"
-            rel="noopener"
-            class="text-blue-400 hover:underline text-sm font-medium"
-          >
-            Open Steam
-          </a>
-          <button 
-            onclick="openQR('${g.link}')"
-            class="p-1 rounded text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
-            title="Show QR Code"
-            aria-label="Show QR Code"
-          >
-            ${qrIcon()}
-          </button>
-        </div>
-        <div id="print-qr-${index}" class="hidden print-qr-container"></div>
+          <div class="flex items-center gap-3 print:hidden">
+            <a
+              href="${g.link}"
+              target="_blank"
+              rel="noopener"
+              class="text-blue-400 hover:underline text-sm font-medium"
+            >
+              Open Steam
+            </a>
+            <button 
+              onclick="openQR('${g.link}')"
+              class="p-1 rounded text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+              title="Show QR Code"
+              aria-label="Show QR Code"
+            >
+              ${qrIcon()}
+            </button>
+          </div>
+          <div id="print-qr-${index}" class="hidden print-qr-container"></div>
         `}
       </td>
-    `;  
+    `;
     tbody.appendChild(tr);
+
     if (g.state !== "unsupported") {
       new QRCode(document.getElementById(`print-qr-${index}`), {
         text: g.link,
@@ -192,7 +226,7 @@ function render() {
         correctLevel : QRCode.CorrectLevel.L
       });
     }
-    });
+  });
 }
 
 document.getElementById("search").addEventListener("input", render);
@@ -230,6 +264,19 @@ function openQR(link) {
 function closeModal() {
   const modal = document.getElementById("qrModal");
   modal.classList.add("hidden");
+}
+
+function toggleInfo(index) {
+  const infoDiv = document.getElementById(`more-info-${index}`);
+  const chevron = document.getElementById(`chevron-${index}`);
+  
+  if (infoDiv.classList.contains("hidden")) {
+    infoDiv.classList.remove("hidden");
+    chevron.style.transform = "rotate(180deg)";
+  } else {
+    infoDiv.classList.add("hidden");
+    chevron.style.transform = "rotate(0deg)";
+  }
 }
 
 document.getElementById("qrModal").addEventListener("click", (e) => {
