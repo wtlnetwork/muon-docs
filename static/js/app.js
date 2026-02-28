@@ -121,6 +121,11 @@ function escapeHtml(text) {
     .replace(/>/g, "&gt;");
 }
 
+function linkify(text) {
+  const urlRegex = /(https?:\/\/[^\s<]+)/g;
+  return text.replace(urlRegex, '<a href="$1" target="_blank" rel="noopener" class="text-blue-400 hover:underline">$1</a>');
+}
+
 function render() {
   const search = document.getElementById("search").value.toLowerCase();
   const state = document.getElementById("stateFilter").value;
@@ -144,32 +149,37 @@ function render() {
     tr.className = rowClass(g.state);
 
     tr.innerHTML = `
-      <td class="px-4 py-2" data-label="Title">
-        <div class="flex items-start gap-2">
-          ${g.more_info ? `
-            <button 
-              onclick="toggleInfo(${index})"
-              class="mt-1 p-0.5 rounded text-slate-400 hover:text-white hover:bg-slate-700 transition-colors print:hidden flex-shrink-0"
-              title="Toggle More Info"
-              aria-expanded="false"
-            >
-              <svg id="chevron-${index}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 transition-transform duration-200">
+    <td class="px-4 py-2" data-label="Title">
+        <div class="flex items-start gap-2 ${g.state === 'informational' && g.notes ? 'cursor-pointer group' : ''}" ${g.state === 'informational' && g.notes ? `onclick="toggleInfo(${index})"` : ''}>
+          ${g.state === 'informational' && g.notes ? `
+            <div class="mt-1 p-0.5 rounded text-slate-400 group-hover:text-white transition-colors print:hidden flex-shrink-0">
+              <svg id="chevron-${index}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" style="width: 1rem; height: 1rem;" class="transition-transform duration-200">
                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
               </svg>
-            </button>
+            </div>
           ` : `
-            <div class="w-5 h-5 flex-shrink-0 print:hidden"></div>
+            <div class="flex-shrink-0 print:hidden" style="width: 1rem; height: 1rem;"></div>
           `}
-          <div>
-            <div class="font-medium title-text">
+          <div class="w-full">
+            <div class="font-medium title-text ${g.state === 'informational' && g.notes ? 'group-hover:text-blue-400 transition-colors' : ''}">
               ${g.title}
             </div>
+            ${g.variable_players ? `
+              <div class="mt-0.5 text-xs text-slate-500 font-semibold">
+                ${escapeHtml(g.variable_players)}
+              </div>
+            ` : ""}
             <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs">
-              ${escapeHtml(g.notes).replace(/\n/g, "<br>")}
+              ${g.short_description ? escapeHtml(g.short_description).replace(/\n/g, "<br>") : ""}
             </div>
-            ${g.more_info ? `
-              <div id="more-info-${index}" class="hidden mt-3 p-3 bg-slate-900/80 rounded border border-slate-700 text-sm text-slate-300 leading-relaxed">
-                ${escapeHtml(g.more_info).replace(/\n/g, "<br>")}
+            
+            ${g.state === 'informational' && g.notes ? `
+              <div id="more-info-${index}" class="hidden mt-3 p-3 bg-slate-900/80 rounded border border-slate-700 text-sm text-slate-300 leading-relaxed break-all cursor-auto" onclick="event.stopPropagation()">
+                ${linkify(escapeHtml(g.notes).replace(/\n/g, "<br>"))}
+              </div>
+            ` : g.notes ? `
+              <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs break-all">
+                ${linkify(escapeHtml(g.notes).replace(/\n/g, "<br>"))}
               </div>
             ` : ""}
           </div>
