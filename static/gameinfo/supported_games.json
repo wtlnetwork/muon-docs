@@ -660,7 +660,56 @@
     "variable_players": "2 Players",
     "short_description": "Playable: LANFix Mod",
     "state": "informational",
-    "notes": "https://steamcommunity.com/groups/muonverified/discussions/0/506208224013246843/",
+    "notes": "WARNING: This tutorial will be using modifications that will bypass the Steam Networking API using SmartSteamEmu.
+We will not be held responsible for any banned accounts due to this method.\n
+CRITICAL NOTE: Installing this mod will prevent any access to online matchmaking / lobby joining.\n
+Steam Achievements will not be earned through out the game.\n
+Any previous data after installing this modification will be wiped, personal data can be restored if you used Cloud Saves as a default
+To undo the mod proceed with the following:
+Uninstall RE5 From the Library
+Switch to Desktop Mode
+Open the Steam Library Folder, Locate RE5, right click it and select the browse local storage.\n
+Delete the remaining files in the folder.\n
+Reinstall RE5.\n
+
+This installation will require using the internet for mod installation. Do this before going offline\n
+
+Mod Installation:\n
+
+Note: We recommend using a mouse & keyboard as you'll need to do some text editing with a keyboard and copy & pasting with a mouse.\n
+
+Both Host & Guest will have to install this mod\n
+
+Switch to Desktop Mode and ensure RE5 is installed on both devices:\n
+
+Go to this link to download the LANFix for RE5:
+https://drive.google.com/file/d/1SOV860y1Xzb0lsga4bvtyHXEogYMetfg/view?usp=sharing
+
+Once downloaded, extract the containment files into a 're5' folder.\n
+
+Inside there you should see a 'settings folder', click it open.\n
+Inside you should see two files called: 'user_steam_id.txt' and 'account_name.txt'
+\n
+With 'user_steam_id.txt' edit it in Notepad/Kate, change only 2 numbers within that line of text - BUT MAKE SURE THE CODE ISN'T THE SAME AS YOUR GUEST/HOST.\n
+Then Save & Exit
+
+Next is 'account_name.txt', open that and in it you'll get a default name, change it to any name you like - AS LONG AS IT ISN'T THE SAME AS YOUR HOST/GUEST.
+Then Save & Exit.
+\n
+Copy all the files in the LANFix folder into your RE5 directory, make sure to override every file.\n
+You shall see RE5LAN.exe, Launcher.exe files and a folder called SmartSteamEmu now in your RE5 directory folder.\n
+
+You are all set and are free to go back to Gaming Mode and will not have to do this set up process again if you want this game to remain in offline LAN mode.\n
+Game saves will all be local on the device.\n
+
+Host & Guest:\n
+
+\nHost:
+New Game/Continue, Under Networking, Switch Network Selection to: Local, Start Game, Wait in the Item Selection Menu.
+
+\nGuest:
+Join Game, Select Quick Match, the Host lobby will be found, join session.
+Host will have to accept the Guest joining.",
     "link": "https://store.steampowered.com/app/21690/Resident_Evil_5/"
   },
   {
