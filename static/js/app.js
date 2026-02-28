@@ -145,11 +145,34 @@ function render() {
 
     tr.innerHTML = `
       <td class="px-4 py-2" data-label="Title">
-        <div class="font-medium title-text">
-          ${g.title}
-        </div>
-        <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs">
-          ${escapeHtml(g.notes).replace(/\n/g, "<br>")}
+        <div class="flex items-start gap-2">
+          ${g.more_info ? `
+            <button 
+              onclick="toggleInfo(${index})"
+              class="mt-1 p-0.5 rounded text-slate-400 hover:text-white hover:bg-slate-700 transition-colors print:hidden flex-shrink-0"
+              title="Toggle More Info"
+              aria-expanded="false"
+            >
+              <svg id="chevron-${index}" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-4 h-4 transition-transform duration-200">
+                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+              </svg>
+            </button>
+          ` : `
+            <div class="w-5 h-5 flex-shrink-0 print:hidden"></div>
+          `}
+          <div>
+            <div class="font-medium title-text">
+              ${g.title}
+            </div>
+            <div class="mt-1 text-sm text-slate-400 leading-relaxed print:text-black print:text-xs">
+              ${escapeHtml(g.notes).replace(/\n/g, "<br>")}
+            </div>
+            ${g.more_info ? `
+              <div id="more-info-${index}" class="hidden mt-3 p-3 bg-slate-900/80 rounded border border-slate-700 text-sm text-slate-300 leading-relaxed">
+                ${escapeHtml(g.more_info).replace(/\n/g, "<br>")}
+              </div>
+            ` : ""}
+          </div>
         </div>
       </td>
 
@@ -159,29 +182,30 @@ function render() {
 
       <td class="px-4 py-2" data-label="Link">
         ${g.state === "unsupported" ? "" : `
-        <div class="flex items-center gap-3 print:hidden">
-          <a
-            href="${g.link}"
-            target="_blank"
-            rel="noopener"
-            class="text-blue-400 hover:underline text-sm font-medium"
-          >
-            Open Steam
-          </a>
-          <button 
-            onclick="openQR('${g.link}')"
-            class="p-1 rounded text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
-            title="Show QR Code"
-            aria-label="Show QR Code"
-          >
-            ${qrIcon()}
-          </button>
-        </div>
-        <div id="print-qr-${index}" class="hidden print-qr-container"></div>
+          <div class="flex items-center gap-3 print:hidden">
+            <a
+              href="${g.link}"
+              target="_blank"
+              rel="noopener"
+              class="text-blue-400 hover:underline text-sm font-medium"
+            >
+              Open Steam
+            </a>
+            <button 
+              onclick="openQR('${g.link}')"
+              class="p-1 rounded text-slate-400 hover:text-white hover:bg-slate-700 transition-colors"
+              title="Show QR Code"
+              aria-label="Show QR Code"
+            >
+              ${qrIcon()}
+            </button>
+          </div>
+          <div id="print-qr-${index}" class="hidden print-qr-container"></div>
         `}
       </td>
-    `;  
+    `;
     tbody.appendChild(tr);
+
     if (g.state !== "unsupported") {
       new QRCode(document.getElementById(`print-qr-${index}`), {
         text: g.link,
@@ -192,7 +216,7 @@ function render() {
         correctLevel : QRCode.CorrectLevel.L
       });
     }
-    });
+  });
 }
 
 document.getElementById("search").addEventListener("input", render);
@@ -230,6 +254,19 @@ function openQR(link) {
 function closeModal() {
   const modal = document.getElementById("qrModal");
   modal.classList.add("hidden");
+}
+
+function toggleInfo(index) {
+  const infoDiv = document.getElementById(`more-info-${index}`);
+  const chevron = document.getElementById(`chevron-${index}`);
+  
+  if (infoDiv.classList.contains("hidden")) {
+    infoDiv.classList.remove("hidden");
+    chevron.style.transform = "rotate(180deg)";
+  } else {
+    infoDiv.classList.add("hidden");
+    chevron.style.transform = "rotate(0deg)";
+  }
 }
 
 document.getElementById("qrModal").addEventListener("click", (e) => {
