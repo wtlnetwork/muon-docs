@@ -36,13 +36,13 @@
 {
     "title": "Sons of the Forest",
     "state": "unsupported",
-    "notes": "Direct IP and LAN searches will not find the lobby, needs to be connected to Steam Networking API both for local and dedicated servers to be found.",
+    "notes": "Direct IP and LAN searches will not find the lobby, \nneeds to be connected to Steam Networking API both for local and dedicated servers to be found.",
     "link": "https://store.steampowered.com/app/1326470/Sons_Of_The_Forest/"
   },
 {
     "title": "Halo: Infinite",
     "state": "unsupported",
-    "notes": "After doing the online login process, multiplayer is blocked. You can create a custom game mode and have a dedicated server cmd pop up, however the maps are all tied to online forge maps.",
+    "notes": "After doing the online login process, multiplayer is blocked. \nYou can create a custom game mode and have a dedicated server cmd pop up, \nhowever the maps are all tied to online forge maps.",
     "link": "https://store.steampowered.com/app/1240440/Halo_Infinite/"
   },
  {
@@ -55,7 +55,7 @@
   {
     "title": "Bronzebeard's Tavern",
     "state": "unsupported",
-    "notes": "While having options to enable LAN only lobbies and search results, guests can not find host lobby in the browser menu. \nLAN matches are tied to Epic's online service for connection.",
+    "notes": "While having options to enable LAN only lobbies and search results, \nguests can not find host lobby in the browser menu. \nLAN matches are tied to Epic's online service for connection.",
     "link": "https://store.steampowered.com/app/2422870/Bronzebeards_Tavern/"
   },
   {
@@ -75,7 +75,7 @@
   {
     "title": "Homeworld Remastered Collection",
     "state": "unsupported",
-    "notes": "Network unavailable message will occur when creating a LAN lobby. LAN play is not available in the Remastered Collection, both Online and Offline.",
+    "notes": "Network unavailable message will occur when creating a LAN lobby. \nLAN play is not available in the Remastered Collection.",
     "link": "/"
   },
   {
@@ -183,7 +183,7 @@
   {
     "title": "Embr",
     "state": "unsupported",
-    "notes": "After completing the tutorial in single player offline to unlock multiplayer, the multiplayer menu will prompt with failed to connect to online server messages.",
+    "notes": "After completing the tutorial in single player offline to unlock multiplayer, \nthe multiplayer menu will prompt with failed to connect to online server messages.",
     "link": "https://store.steampowered.com/app/1062830/Embr/"
   },
   {
@@ -268,7 +268,7 @@
   {
     "title": "Borderlands 2",
     "state": "unsupported",
-    "notes": "Has direct IP commands in launch options, but guests can not join the host lobby, game claims the versions are different and declines access (2.0.0 version on both devices w/wo proton)",
+    "notes": "Has direct IP commands in launch options, but guests can not join the host lobby, \ngame claims the versions are different and declines access (2.0.0 version on both devices w/wo proton)",
     "link": "https://store.steampowered.com/app/49520/Borderlands_2/"
   },
   {
@@ -337,7 +337,7 @@
   {
     "title": "Palworld",
     "state": "unsupported",
-    "notes": "Palworld is tightly integrated with Epic Online Services and Steam Networking API; multiplayer features will be inaccessible from the main menu due to an invalid online token.",
+    "notes": "Palworld is tightly integrated with Epic Online Services and Steam Networking API; \nmultiplayer features will be inaccessible from the main menu due to an invalid online token.",
     "link": "https://store.steampowered.com/app/1623730/Palworld/"
   },
   {
@@ -350,7 +350,7 @@
   {
     "title": "BRINK",
     "state": "unsupported",
-    "notes": "Has Direct IP, Dedicated Server, LAN connections and console commands. But once Steam is in offline mode, any option to join or create a game lobby is blocked.",
+    "notes": "Has Direct IP, Dedicated Server, LAN connections and console commands. \nBut once Steam is in offline mode, any option to join or create a game lobby is blocked.",
     "link": "https://store.steampowered.com/app/22350/BRINK/"
   },
   {
@@ -447,7 +447,7 @@
   {
     "title": "Counter-Strike 2",
     "state": "unsupported",
-    "notes": "with 'sv_lan 1' and 'connect' console commands, attempts to join an offline LAN are revoked with Steam requiring online access, dedicated servers need online accessibility to run as well.",
+    "notes": "with 'sv_lan 1' and 'connect' console commands, attempts to join an offline LAN are revoked, \nSteam requires online access, dedicated servers need online accessibility to run as well.",
     "link": "https://store.steampowered.com/app/730/CounterStrike_2/"
   },
   {
@@ -495,7 +495,7 @@
   {
     "title": "GTR 2 FIA GT Racing Game",
     "state": "unsupported",
-    "notes": "Related to crash: \"UserData\\Log\\Minidump\\GTR2_1.000-20250627.xxx.dmp\" when attempting to create profile name and host a lobby.\nGame is unplayable but has direct IP support for multiplayer",
+    "notes": "Related to crash: \"UserData\\Log\\Minidump\\GTR2_1.000-20250627.xxx.dmp\" \nwhen attempting to create profile name and host a lobby.\nGame is unplayable but has direct IP support for multiplayer",
     "link": "https://store.steampowered.com/app/8790/GTR_2_FIA_GT_Racing_Game/"
   },
   {
@@ -508,7 +508,7 @@
   {
     "title": "Magicka",
     "state": "unsupported",
-    "notes": "After the host sets up the lobby with LAN enabled, the guest is able to see the lobby, but the guest is blocked by the error message: \"authentication failed\" when attempting to join",
+    "notes": "After the host sets up the lobby with LAN enabled, the guest is able to see the lobby, \nbut the guest is blocked by the error message: \"authentication failed\" when attempting to join",
     "link": "https://store.steampowered.com/app/42910/Magicka/"
   },
   {
@@ -540,19 +540,19 @@
   {
     "title": "Dying Light",
     "state": "unsupported",
-    "notes": "After completing the prologue on both accounts to set up multiplayer LAN mode, guests can see the host lobby and join, but abruptly disconnect when the game can't connect to Steam Servers.",
+    "notes": "After completing the prologue on both accounts to set up multiplayer LAN mode, \nguests can see the host lobby and join, but abruptly disconnect when the game can't connect to Steam Servers.",
     "link": "https://store.steampowered.com/app/239140/Dying_Light/"
   },
   {
     "title": "Age of Empires II (Retired)",
     "state": "unsupported",
-    "notes": "Entering Multiplayer is blocked by \"Steam needs to be online\" prompt, direct IP was supported by Gamespy version (Original), replaced with Steam's Networking API for the HD version.",
+    "notes": "Entering Multiplayer is blocked by \"Steam needs to be online\" prompt, \ndirect IP was supported by Gamespy version (Original), replaced with Steam's Networking API for the HD version.",
     "link": "https://store.steampowered.com/app/221380/Age_of_Empires_II_Retired/"
   },
   {
     "title": "Sid Meier’s Civilization® VI",
     "state": "unsupported",
-    "notes": "Logged in to sign the in-game EULA, afterwards, when attempting to host a game offline, the lobby would not proceed beyond the game settings menu on LAN mode.",
+    "notes": "Logged in to sign the in-game EULA, afterwards, when attempting to host a game offline, \nthe lobby would not proceed beyond the game settings menu on LAN mode.",
     "link": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/"
   },
   {
@@ -592,13 +592,13 @@
   {
     "title": "7 Days to Die",
     "state": "unsupported",
-    "notes": "After login to establish account connection.\nEven with EAC disabled on launch, any option for guests to join a game offline is greyed out once Steam is in Offline Mode.",
+    "notes": "After login to establish account connection.\nEven with EAC disabled on launch, any option for guests to join \na game offline is greyed out once Steam is in Offline Mode.",
     "link": "https://store.steampowered.com/app/251570/7_Days_to_Die/"
   },
   {
     "title": "STAR WARS™ Battlefront II (Classic, 2005)",
     "state": "unsupported",
-    "notes": "1.1 forces login to GOG Galaxy when selecting Multiplayer for any servers to be viewable, rolled back to 1.0 for LAN matches, creating multiplayer matches crashes the game.",
+    "notes": "1.1 forces login to GOG Galaxy when selecting Multiplayer for any servers to be viewable, \nrolled back to 1.0 for LAN matches, creating multiplayer matches crashes the game.",
     "link": "https://store.steampowered.com/app/6060/STAR_WARS_Battlefront_II_Classic_2005/"
   },
   {
@@ -625,7 +625,7 @@
   {
     "title": "Wreckfest",
     "state": "unsupported",
-    "notes": "LAN scan can't find host lobbies offline, no direct IP option.\nDedicated servers are found on LAN, but block players from joining, no options allowing Steam Authentication to be disabled.",
+    "notes": "LAN scan can't find host lobbies offline, no direct IP option.\nDedicated servers are found on LAN, but block players from joining, \nno options allowing Steam Authentication to be disabled.",
     "link": "https://store.steampowered.com/app/228380/Wreckfest/"
   },
   {
