@@ -199,7 +199,7 @@ function render() {
               rel="noopener"
               class="text-blue-400 hover:underline text-sm font-medium"
             >
-              Open Steam
+              Game Link
             </a>
             <button 
               onclick="openQR('${g.link}')"
