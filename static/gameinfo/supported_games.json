@@ -49,7 +49,7 @@
     "title": "Team Fortress 2 Classified",
     "state": "supported",
     "variable_players": "2-32 Players",
-    "notes":  "Host: Create Server, --, Start.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, Press '~' under ESC button, type 'connect HOST_IP', Submit.\nNote: Team Fortress 2 needs to be in the libaray and installed on both host and guest devices to launch",
+    "notes":  "Host: Create Server, --, Start.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, \nPress '~' under ESC button, type 'connect HOST_IP', Submit.\n(Note: Team Fortress 2 needs to be in the libaray and installed on both host and guest devices to launch)",
     "link": "https://store.steampowered.com/app/3545060/Team_Fortress_2_Classified/"
   }, 
   {
@@ -69,7 +69,7 @@
     "title": "Pirates, Vikings & Knights II",
     "state": "supported",
     "variable_players": "2-32 Players",
-    "notes":  "Host: Create Game, Host Server, in Game Tab enable 'LAN Server', --, Start.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, Press '~' under ESC button, type 'connect HOST_IP', Submit.",
+    "notes":  "Host: Create Game, Host Server, in Game Tab enable 'LAN Server', --, Start.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, \nPress '~' under ESC button, type 'connect HOST_IP', Submit.",
     "link": "https://store.steampowered.com/app/17570/Pirates_Vikings__Knights_II/"
   }, 
   {
@@ -612,7 +612,7 @@
     "title": "Team Fortress 2",
     "state": "supported",
     "variable_players": "2-32 Players",
-    "notes": "Host: Find a Game, Create Server, Server Type: Local Network (LAN)\nGuest: Enable Console in Options -> Keyboard, Open Console with ~ under ESC key, Type in \"connect\" then HOST_IP.",
+    "notes": "Host: Find a Game, Create Server, Server Type: Local Network (LAN)\nGuest: Enable Console in Options -> Keyboard, Open Console with '~' under ESC key, \nType in \"connect\" then HOST_IP.",
     "link": "https://store.steampowered.com/app/440/Team_Fortress_2/"
   },
   {
@@ -632,7 +632,7 @@
     "title": "Baldur's Gate 3",
     "state": "supported",
     "variable_players": "2-4 Players",
-    "notes": "Host: Create Multiplayer Game, Edit Session, LAN 'ON' Only.\nGuest: STEAM + RT to change UI, will show \"Direct Connect\" in MP. Click DC and type IP of host, host can see guest joining.",
+    "notes": "Host: Create Multiplayer Game, Edit Session, LAN 'ON' Only.\nGuest: STEAM + RT to change UI, will show \"Direct Connect\" in MP. \nClick DC and type HOST_IP, host will see guest joining.",
     "link": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
   },
   {
