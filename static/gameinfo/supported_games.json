@@ -18,7 +18,7 @@
     "title": "Alien Swarm: Reactive Drop",
     "state": "supported",
     "variable_players": "2-8 Players",
-    "notes":  "Host: Enable Developer Console in Options, press '~' key under ESC, type: 'sv_lan 1' then submit, then type: 'map ' then select any of the avaliable maps, Submit.\nGuest: Enable Devloper Console in Settings - Keyboard and Mouse and Advanced Menu, Press '~' under ESC button, type 'connect HOST_IP', Submit.\nNote: You can change the level and/or game type by calling a vote in the menu",
+    "notes":  "Host & Guest: Add \"-console\" to launch options.\nHost: type: \"sv_lan 1\" then \"map \", select any map on the list, Submit.\nGuest: Same \"connect HOST_IP\", Submit.\n(Note: You can change the level and/or game type by calling a vote in the menu)",
     "link": "https://store.steampowered.com/app/563560/Alien_Swarm_Reactive_Drop/"
   }, 
 {
