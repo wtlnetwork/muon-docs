@@ -6,6 +6,13 @@
     "notes":  "Host: Start Game, Online, LAN Game, Enter Name, Start Game.\nGuest: Start Game, Online, LAN Game, Enter Name, Switch join IP address to HOST_IP, Join.",
     "link": "https://store.steampowered.com/app/512900/Streets_of_Rogue/"
   },
+  {
+    "title": "Counter-Strike: Global Offensive",
+    "state": "supported",
+    "variable_players": "2-16 Players",
+    "notes":  "Host & Guest: add \"-console\" to launch options.\nHost: type \"sv_lan 1\" & then \"map \" choose any map in list.\nGuest: type \"connect HOST_IP\"\n(Note: to change map, type in console \"map \" then name a map, submit)",
+    "link": "https://store.steampowered.com/app/4465480/CounterStrike_Global_Offensive/"
+  },
   { 
     "title": "Goldeneye: Source",
     "state": "informational",
@@ -502,8 +509,10 @@
   },
   {
     "title": "GTR 2 FIA GT Racing Game",
-    "state": "unsupported",
-    "notes": "Related to crash: \"UserData\\Log\\Minidump\\GTR2_1.000-20250627.xxx.dmp\" \nwhen attempting to create profile name and host a lobby.\nGame is unplayable but has direct IP support for multiplayer",
+    "state": "informational",
+    "variable_players": "2-8",
+    "short_description": "Playable: Protontricks Fix",
+    "notes": "Both Host & Guests will have to do this set up.\n\nSwitch to Desktop Mode\n\nIn the Konsole, Install protontricks with this command line:\n\n\"sudo flatpak install protontricks\"\n\nNote: If you can't install protontricks, run this command in the konsole:\n\n\"sudo steamos-readonly disable && sudo pacman -S flatpak -y\"\n\nthen run\n\n\"sudo flatpak install protontricks\"  \n\nLaunch Protontricks.\n\nSelect GTR in the game list.\n\nOnce open, select:\n\"Select the default wineprefix\"\nHit Ok, then\n\"Install a Windows DDL or component\"\nHit Ok.\n\nIn the list of packages, find these 4 packages and select them:\nd3dx9\nmfc42\nvcrun2003\nvcrun2005\n\nOnce these are selected, hit OK.\n\nWait a few seconds for the installers to show up, hit \"JA\" for one of them, then hit \"OK\" for the other two. \n\nAfter a while, protontricks will pop up again, this confirms the missing packages are installed into the game.\n\nClose Protontricks by pressing the cancel button and again.\n\nRight click GTR 2 FIA GT Racing Game in Steam\nand Select Properties.\n\nChange the Proton Compatibility to:\nProton 9.0.4\n\nSwitch back to Game Mode\n\nOnce in gamemodeui, go to the GTR library page, select the button to change controller config,\ngo to the \"community layouts\" tab and select: \"GTR2 Full game control\" by efoss28.\nApply the layout.\n(Note: if nothing shows up in the community layouts, press the X button for \"Show all layouts\" or click it manually)\n\nYou are now able to go offline and play LAN.\n\nHost & Guest:\nYou'll have to navigate the main menu by holding STEAM + Left Trackpad and Right Trigger to select.\nGo to Controls in the Main Menu, \nOnce in there press \"XBOX 360 for Windows\"\n\nHost:\nLocal Multiplayer,\nHost,\n\u2014,\nEnter lobby name,\nCheck Mark,\n\nGuest:\nLocal Multiplayer\nChange Datarate to: Cable/DSL\nHighlight host lobby that'll appear by automatically refreshing,\nDrive.\n\n(Note: To accelerate - hold up on the left analog stick)",
     "link": "https://store.steampowered.com/app/8790/GTR_2_FIA_GT_Racing_Game/"
   },
   {
