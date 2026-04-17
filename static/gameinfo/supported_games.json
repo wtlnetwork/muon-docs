@@ -7,6 +7,25 @@
     "link": "https://store.steampowered.com/app/512900/Streets_of_Rogue/"
   },
   {
+    "title": "Space Engineers",
+    "state": "unsupported",
+    "notes": "Main menu Join game button will display \"Steam is offline, Please run Steam in normal mode\" prompt.\nLaunch commands host IP input do not work either.",
+    "link": "https://store.steampowered.com/app/244850/Space_Engineers/"
+  },
+    {
+    "title": "Roombattle",
+    "state": "unsupported",
+    "notes": "No LAN Options, game caters only to Local and Online Play,\nOnline lobby search does not find the host session",
+    "link": "https://store.steampowered.com/app/3223000/Roombattle/"
+  },
+  {
+    "title": "Bloody Good Time",
+    "state": "supported",
+    "variable_players": "2-16 Players",
+    "notes":  "Host & Guest: add \"-console\" to launch options.\nHost: type \"sv_lan 1\" & then \"map \" choose any map in list.\nGuest: type \"connect HOST_IP\"\n(Note: to change map, type in console \"map \" then name a map, submit)",
+    "link": "https://store.steampowered.com/app/2450/Bloody_Good_Time/"
+  },
+  {
     "title": "Counter-Strike: Global Offensive",
     "state": "supported",
     "variable_players": "2-16 Players",
