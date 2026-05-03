@@ -28,7 +28,7 @@
     "title": "Insurgency",
     "state": "supported",
     "variable_players": "2-10 Players",
-    "notes":  "Host & Guest: Add \"-console\" to launch options. \nHost: type: \"sv_lan 1\" then \"map \", select any map on the list, \nSubmit. Guest: Same \"connect HOST_IP\", Submit.",
+    "notes":  "Host & Guest: Add \"-console\" to launch options. \nHost: type: \"sv_lan 1\" then \"map \", select any map on the list, Submit. \nGuest: Same \"connect HOST_IP\", Submit.",
     "link": "https://store.steampowered.com/app/222880/Insurgency/"
   },
     {
