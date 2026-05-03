@@ -4,9 +4,34 @@
     "state": "supported",
     "variable_players": "2-4 Players",
     "notes":  "Host: Start Game, Online, LAN Game, Enter Name, Start Game.\nGuest: Start Game, Online, LAN Game, Enter Name, Switch join IP address to HOST_IP, Join.",
-    "link": "https://store.steampowered.com/app/512900/Streets_of_Rogue/"
+    "link": "https://store.steampowered.com/app/512900/Streets_of_Rogue/"   
   },
-  {
+    {
+    "title": "SOS OPS!",
+    "state": "unsupported",
+    "notes": "Although LAN functionality exists, \nguests cannot find the host lobby through search, and there is no Direct IP options.",
+    "link": "https://store.steampowered.com/app/2475460/SOS_OPS/"
+  },
+     {
+    "title": "s&box",
+    "state": "unsupported",
+    "notes": "While offline, the main menu does not load any features, \nand using the console does not register typical Source commands. \nThe game relies entirely on online connectivity to function.",
+    "link": "https://store.steampowered.com/app/590830/sbox/"
+  },
+    {
+    "title": "SCP: Containment Breach Multiplayer",
+    "state": "unsupported",
+    "notes": "Direct IP connections to access the host lobby are blocked, \nshowing the message \"No connection to Steam was detected,\" and the host lobby cannot be found through search.",
+    "link": "https://store.steampowered.com/app/1782380/SCP_Containment_Breach_Multiplayer/"
+  },
+    {
+    "title": "Insurgency",
+    "state": "supported",
+    "variable_players": "2-10 Players",
+    "notes":  "Host & Guest: Add \"-console\" to launch options. Host: type: \"sv_lan 1\" then \"map \", select any map on the list, Submit. Guest: Same \"connect HOST_IP\", Submit.",
+    "link": "https://store.steampowered.com/app/222880/Insurgency/"
+  },
+    {
     "title": "Space Engineers",
     "state": "unsupported",
     "notes": "Main menu Join game button will display \"Steam is offline, Please run Steam in normal mode\" prompt.\nLaunch commands host IP input do not work either.",
