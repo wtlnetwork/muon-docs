@@ -1,5 +1,37 @@
 [
   {
+    "title": "Portal 2: Community Edition",
+    "state": "unsupported",
+    "notes": "Once offline, Multiplayer/Co-op menu is blocked off, \nconsole commands are supported \nbut none of the standard source commands function in the console.",
+    "link": "https://store.steampowered.com/app/440000/Portal_2_Community_Edition/"
+  },  
+  {
+    "title": "Serious Sam Fusion 2017 (Beta)",
+    "state": "unsupported",
+    "notes": "Network Play will prompt message: \n\"Log on to Steam to Access Online Content\" denying access, \nSwitching to LAN networking speed in the Multiplayer options doesn't work either.",
+    "link": "https://store.steampowered.com/app/564310/Serious_Sam_Fusion_2017_beta/"
+  },  
+  {
+    "title": "Blood & Bacon",
+    "state": "unsupported",
+    "notes": "Hosting a lobby will kick host back to main menu \nwith the error: \"Host has no created lobby\",\nNo direct IP or dev console menus.",
+    "link": "https://store.steampowered.com/app/434570/Blood_and_Bacon/"
+  },  
+  {
+    "title": "Day of Defeat",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Create Server, Enable Steam Networking, --, Start\nGuest: Join Server, Select LAN Tab, Refresh, Click the lobby, Connect",
+    "link": "https://store.steampowered.com/app/30/Day_of_Defeat/"   
+  },
+  {
+    "title": "Day of Defeat: Source",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Create Server, Enable Steam Networking, --, Start\nGuest: Join Server, Select LAN Tab, Refresh, Click the lobby, Connect",
+    "link": "https://store.steampowered.com/app/300/Day_of_Defeat_Source/"   
+  },
+  {
     "title": "Streets of Rogue",
     "state": "supported",
     "variable_players": "2-4 Players",
