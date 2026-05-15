@@ -5,6 +5,7 @@
     "variable_players": "2-4 Players",
     "notes":  "Host: Online Vs, HOST, Type: DIRECT, Network: Local Area, Start.\nGuest: Online Vs, DIRECT, Input HOST_IP, Press the Arrow Button (->) Next to Port Number to join.",
     "link": "https://store.steampowered.com/app/2822980/ARSONATE/"    
+  },
   {
     "title": "Portal 2: Community Edition",
     "state": "unsupported",
