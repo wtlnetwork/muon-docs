@@ -1,5 +1,11 @@
 [
   {
+    "title": "ARSONATE",
+    "state": "supported",
+    "variable_players": "2-4 Players",
+    "notes":  "Host: Online Vs, HOST, Type: DIRECT, Network: Local Area, Start.\nGuest: Online Vs, DIRECT, Input HOST_IP, Press the Arrow Button (->) Next to Port Number to join.",
+    "link": "https://store.steampowered.com/app/2822980/ARSONATE/"    
+  {
     "title": "Portal 2: Community Edition",
     "state": "unsupported",
     "notes": "Once offline, Multiplayer/Co-op menu is blocked off, \nconsole commands are supported \nbut none of the standard source commands function in the console.",
@@ -488,7 +494,7 @@
     "title": "Grim Dawn",
     "state": "supported",
     "variable_players": "2-4 Players",
-    "notes": "Host: Single Player, Change to Host Multiplayer, Start Game\nGuest: Single Player, Change to Join Multiplayer, Host Lobby will Show in Browser, Join.",
+    "notes": "Host: Switch Multiplayer to Host Multiplayer, --, Accept, Start.\nGuest: Switch Multiplayer to Join Multiplayer, Start, Host lobby will appear, Start.",
     "link": "https://store.steampowered.com/app/219990/Grim_Dawn/"
   },
   {
@@ -814,7 +820,7 @@
     "title": "Killing Floor",
     "state": "supported",
     "variable_players": "2-6 Players",
-    "notes": "Host: Create a lobby, Check \"LAN\" and select \"Listen\" to start lobby.\nGuest: Find Multiplayer, Choose \"Lan\" tab, Join HOST Lobby.",
+    "notes": "Host & Guest: Settings, Under Network switch Connection to: LAN/T1\nHost: Host Game, Click each Text to Enter, Click on Map to Start Lobby.\nGuest: Multiplayer, hit 'LAN' tab, highlight Host server, Join.",
     "link": "https://store.steampowered.com/app/1250/Killing_Floor/"
   },
   {
