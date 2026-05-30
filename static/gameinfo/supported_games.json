@@ -1,5 +1,58 @@
 [
   {
+    "title": "Teardown",
+    "state": "unsupported",
+    "notes": "Hosting a lobby will error with: 'Connection Rejected: Unknown matchmaking error'",
+    "link": "https://store.steampowered.com/app/1167630/Teardown/"
+  },  
+  {
+    "title": "Dead Rising 2",
+    "state": "unsupported",
+    "notes": "Attempting to Join Co-Op Game will prompt: 'Steam is currently offline. You can not access online functionality at this time' message.",
+    "link": "https://store.steampowered.com/app/45740/Dead_Rising_2/"
+  },  
+  {
+    "title": "Besiege",
+    "state": "supported",
+    "variable_players": "2-10 Players",
+    "notes":  "Host & Guest: click the Black Hole (left) for Multiplayer, switch to LAN tab.\nHost: Host, --, Host.\nGuest: Join, input HOST_IP, JOIN.",
+    "link": "https://store.steampowered.com/app/346010/Besiege/"    
+  }, 
+  {
+    "title": "Rush Rally Origins",
+    "state": "supported",
+    "variable_players": "2-6 Players",
+    "notes":  "Host & Guest: Multiplayer, LAN.\nHost: Create, --, Create.\nGuest: Join. (You will automatically enter the host lobby)",
+    "link": "https://store.steampowered.com/app/1728660/Rush_Rally_Origins/"    
+  }, 
+  {
+    "title": "Rush Rally 3",
+    "state": "supported",
+    "variable_players": "2-6 Players",
+    "notes":  "Host & Guest: Multiplayer, LAN.\nHost: Create Match, --, Next.\nGuest: Search, Click Host Lobby.",
+    "link": "https://store.steampowered.com/app/2020860/Rush_Rally_3/"    
+  }, 
+  {
+    "title": "Heretic + Hexen",
+    "state": "unsupported",
+    "notes": "Guests can not find host lobby when in Lan search.",
+    "link": "https://store.steampowered.com/app/3286930/Heretic__Hexen/"
+  },  
+  {
+    "title": "Attack on Toys",
+    "state": "supported",
+    "variable_players": "2-8 Players",
+    "notes":  "Host: On the Main Menu press left arrow and select Multiplayer LAN, --, Create Room.\nGuest: On the Main Menu press left arrow and select Multiplayer LAN, Refresh, highlight host lobby, join.",
+    "link": "https://store.steampowered.com/app/1269690/Attack_on_Toys/"  
+  },   
+  {
+    "title": "Dead Island: Definitive Edition",
+    "state": "supported",
+    "variable_players": "2-4 Players",
+    "notes":  "Host & Guest: Continue/Play, In Game press Start, Options, Go to Online tab, Switch Game type to LAN, Confirm.\nHost: Wait in game.\nGuest: Game lobby in options, wait for host to accept.",
+    "link": "https://store.steampowered.com/app/383150/Dead_Island_Definitive_Edition/"   
+  },
+  {    
     "title": "RMG-K (Emulator)",
     "state": "informational",
     "variable_players": "2-4 Players",
@@ -423,7 +476,7 @@
     "title": "Risk of Rain 2",
     "state": "supported",
     "variable_players": "2-4 Players",
-    "notes": "Host: MP, Create MP, Start.\nGuest: Press CTRL+ALT+` for D.C menu to appear (use Steam's Edit Controls and make a button for this),\nenter: \"connect HOST_IP:7777\" in the D.C. bar then submit.",
+    "notes": "Host: MP, Create MP, Start Game, Wait in Lobby.\nGuest: Press CTRL+ALT+` for Console menu to appear (use Steam's Edit Controls and make a button for this),\nEnter \"connect HOST_IP:7777\" in the Console bar, Submit.",
     "link": "https://store.steampowered.com/app/632360/Risk_of_Rain_2/"
   },
   {
@@ -770,10 +823,9 @@
     "link": "https://store.steampowered.com/app/217200/Worms_Armageddon/"
   },
   {
-    "title": "DOOM + DOOM II",
-    "state": "supported",
-    "variable_players": "2-16 Players",
-    "notes": "Host & Guest: Choose Selected Game, Multiplayer, Continue (Don't Add Players), LAN.\nHost: Create Match, Start Lobby\nGuest: Join Match, Join Lobby.",
+    "title": "DOOM I + II",
+    "state": "unsupported",
+    "notes": "Guests can not find host lobby when in Lan search.",
     "link": "https://store.steampowered.com/app/2280/DOOM__DOOM_II/"
   },
   {
