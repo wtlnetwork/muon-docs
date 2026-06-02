@@ -1,5 +1,65 @@
 [
   {
+    "title": "Moonbase Alpha",
+    "state": "unsupported",
+    "notes": "When guest connects to Host lobby via Direct IP, guest will be kicked with the message:\n\"You do not appear to be signed into Steam\"",
+    "link": "https://store.steampowered.com/app/39000/Moonbase_Alpha/"
+  }, 
+  {
+    "title": "POSTAL 2",
+    "state": "supported",
+    "variable_players": "2-8 Players",
+    "notes":  "Host & Guest: (Online) Switch to Expiermental/Hotfix, Allow Update. (Offline) Select Multiplayer on boot.\n(Note: This is to allow the Multiplayer mode to download)\n\nHost: Host Game, --, Start.\nGuest: Multiplayer, Direct IP, input HOST_IP, Join.",
+    "link": "https://store.steampowered.com/app/223470/POSTAL_2/"   
+  },
+  {
+    "title": "Torchlight II",
+    "state": "unsupported",
+    "notes": "Host lobby can not be found when guest refreshes the lobby search page.\nChanging local_settings.txt to allow UDP: 7777 or 4171 ports doesn't work and no direct IP console commands.",
+    "link": "https://store.steampowered.com/app/200710/Torchlight_II/"
+  }, 
+  {
+    "title": "Dale & Dawson Stationery Supplies",
+    "state": "supported",
+    "variable_players": "2-18 Players",
+    "notes":  "Host: Create Lobby, LAN, --, Wait in Lobby.\nGuest: Join Lobby, LAN, input HOST_IP, Join.",
+    "link": "https://store.steampowered.com/app/2920570/Dale__Dawson_Stationery_Supplies/"   
+  },
+  {
+    "title": "Warhammer 40,000: Gladius - Relics of War",
+    "state": "supported",
+    "variable_players": "2-16 Players",
+    "notes":  "Host: Multiplayer, Create, --, Wait In Lobby.\nGuest: Multiplayer, Direct Connect, change remote address to: HOST_IP, Connect.",
+    "link": "https://store.steampowered.com/app/489630/Warhammer_40000_Gladius__Relics_of_War/"   
+  },
+  {
+    "title": "Shenanigans",
+    "state": "supported",
+    "variable_players": "2-4 Players",
+    "notes":  "Host: Host Game, Switch Lobby type to: \"LAN Lobby\", --, Host Lobby.\nGuest: Join Lobby, Switch Lobby type to: \"LAN Lobby\", input HOST_IP, Direct Connect.",
+    "link": "https://store.steampowered.com/app/1969570/Shenanigans/"   
+  },
+  {
+    "title": "Reflex Arena",
+    "state": "supported",
+    "variable_players": "2-6 Players",
+    "notes":  "Host: Play, Host Game, Reduce Max Clients to 5 or 4, --, Start Game.\nGuest: Press ~ key (Under ESC key) type: 'connect HOST_IP:25787', Enter.\n\n(Note: UI input is offset on the Steam Deck resulting with Max Clients needing to be 5 or 4 to host the lobby,\nto exit the game you'll have to go to main menu and exit game via the Steam Button)",
+    "link": "https://store.steampowered.com/app/328070/Reflex_Arena/"   
+  },
+  {
+    "title": "Primal Carnage: Extinction",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Multiplayer, Host Game Tab, PLAY OVER LAN: 'Yes', --, Start Server.\nGuest: Press F7, type: 'open HOST_IP', Enter.\n(Note: Closing the lobby will result with a crash, restart the game on both devices)",
+    "link": "https://store.steampowered.com/app/321360/Primal_Carnage_Extinction/"   
+  }, 
+  {
+    "title": "Puck",
+    "state": "unsupported",
+    "notes": "Game fails to launch while offline, will result with: 'Connecting to Puck backend' message loop.",
+    "link": "https://store.steampowered.com/app/2994020/Puck/"
+  }, 
+  {
     "title": "Teardown",
     "state": "unsupported",
     "notes": "Hosting a lobby will error with: 'Connection Rejected: Unknown matchmaking error'",
