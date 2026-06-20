@@ -1,5 +1,37 @@
 [
   {
+    "title": "Buckshot Roulette",
+    "state": "unsupported",
+    "notes": "When Multiplayer is launched, a \"Cannot connect to Steam Servers\" \nprompt will appear, and you will be returned to the main menu.",
+    "link": "https://store.steampowered.com/app/2835570/Buckshot_Roulette/"
+  }, 
+  {
+    "title": "F.E.A.R. 3",
+    "state": "unsupported",
+    "notes": "Mutliplayer functions including PvP and Co-Op Campaign will be inaccessable once Steam is Offline.",
+    "link": "https://store.steampowered.com/app/21100/FEAR_3/"
+  }, 
+  {
+    "title": "Zombie Panic!",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Create a Game, Disble Steam Networking, Enable LAN Mode, --, Create.\nGuest: Join a Game, Select Lan tab, refresh, Connect.\n\n(Note: Half-Life has to be installed on all devices)",
+    "link": "https://store.steampowered.com/app/3825360/Zombie_Panic/"   
+  }, 
+  {
+    "title": "Delivery & Beyond",
+    "state": "unsupported",
+    "notes": "Any attempts to create a host lobby with friends,\npublic or private will give the message: \"Disconnected Failed to Create Lobby\"",
+    "link": "https://store.steampowered.com/app/3376480/Delivery__Beyond/"
+  }, 
+  {
+    "title": "Sid Meier's Civilization V",
+    "state": "supported",
+    "variable_players": "2-12 Players",
+    "notes":  "Host & Guest: Multiplayer, Standard/Pit Boss, Local Network.\nHost: Host, enter a lobby name, --, Host Game.\nGuest: host lobby will appear (or refresh), select and Join Game.",
+    "link": "https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/"   
+  }, 
+  {
     "title": "Dota 2",
     "state": "unsupported",
     "notes": "Using console \"sv_lan true\" & \"connect\", guest gets kicked with message \"Disconnected from Server\",\nSteamNetSockets tries connecting to a backend server, blocks guest joining as result.",
