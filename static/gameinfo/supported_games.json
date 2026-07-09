@@ -1,5 +1,18 @@
 [
   {
+    "title": "Total War: WARHAMMER III",
+    "state": "supported",
+    "variable_players": "2-8 Players",
+    "notes":  "Host & Guest: (Online) Start game to allow Denuvo to set the device.\n(Go Offline)\nHost: Multiplayer Campaign or Battle, Local Network, Host, --, Host.\nGuest: Multiplayer Campaign or Battle,, Local Network, Uncheck Full Lobby, Refresh List, highlight lobby, Join.",
+    "link": "https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/"   
+  }, 
+  {
+    "title": "ARK: Survival Ascended",
+    "state": "unsupported",
+    "notes": "Launching with Anti-Cheat disabled, using 'Join ARK' to join a server \nwill kick guests with \"no login detected\" prompt, \nusing console commands 'open IP:port' doesn't work either.",
+    "link": "https://store.steampowered.com/app/2399830/ARK_Survival_Ascended/"
+  }, 
+  {
     "title": "Buckshot Roulette",
     "state": "unsupported",
     "notes": "When Multiplayer is launched, a \"Cannot connect to Steam Servers\" \nprompt will appear, and you will be returned to the main menu.",
