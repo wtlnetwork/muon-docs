@@ -627,7 +627,7 @@
   {
     "title": "Palworld",
     "state": "unsupported",
-    "notes": "Palworld is tightly integrated with Epic Online Services and Steam Networking API; \nmultiplayer features will be inaccessible from the main menu due to an invalid online token.",
+    "notes": "Palworld is tightly integrated with Epic Online Services & Steam Networking API for security reasons; you can't launch a local multiplayer as host,\nbooting up an offline server using both SteamCMD and the App, connect via direct IP will boot guests due to 'no online token' from server.\n\nNo server options to disable online token enquiries or authentication logins",
     "link": "https://store.steampowered.com/app/1623730/Palworld/"
   },
   {
