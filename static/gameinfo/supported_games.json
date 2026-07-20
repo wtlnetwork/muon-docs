@@ -3,7 +3,7 @@
     "title": "Total War: WARHAMMER III",
     "state": "supported",
     "variable_players": "2-8 Players",
-    "notes":  "Host & Guest: (Online) Start game to allow Denuvo to set the device.\n(Go Offline)\nHost: Multiplayer Campaign or Battle, Local Network, Host, --, Host.\nGuest: Multiplayer Campaign or Battle,, Local Network, Uncheck Full Lobby, Refresh List, highlight lobby, Join.",
+    "notes":  "Host & Guest: (Online) Start game allowing Denuvo to set device once.\n(Offline)\nHost: Multiplayer, Host, --, Host.\nGuest: Multiplayer, Uncheck Full Lobby, Refresh List, click lobby, Join.",
     "link": "https://store.steampowered.com/app/1142710/Total_War_WARHAMMER_III/"   
   }, 
   {
@@ -320,7 +320,7 @@
 {
     "title": "Angels Fall First",
     "state": "unsupported",
-    "notes": "Guests using Direct IP to connect into the Hosted LAN server will cause the host's game to crash.",
+    "notes": "Guests using Direct IP to connect into the Hosted LAN server will cause the host's game to crash.\nUsing a Dedicated Server will not allow guests to join via Direct IP, Dedicated Servers need\nonline connectivity in order to function.",
     "link": "https://store.steampowered.com/app/367270/Angels_Fall_First/"
   },
 {
@@ -403,8 +403,10 @@
   },
   {
     "title": "Barotrauma",
-    "state": "unsupported",
-    "notes": "Once offline, options for hosting a server become inaccessible in the main menu.",
+    "state": "informational",
+    "variable_players": "2-20 Players",
+    "short_description": "Playable SteamCMD Dedicated Server",
+    "notes": "Doing this method will render the Steam Deck as the dedicated host device. We do NOT recommend running the game and the dedicated server on the Steam Deck simultaneously. Instead it is best to use separate devices to connect to the dedicated server.\n\nThe following guide is to get your dedicated server up and running, assuming you already have experience setting up security measures such as whitelists, passwords, and changing IPs or ports. For additional security, consult any supplementary guides to ensure your server remains safe from unknown intruders.\n\n-------------------------------------------------------\n\nDedicated Server:\n\nSteam Deck (Arch):\nSwitch to Desktop Mode\n\nIn the Konsole\nInstall git with\nsudo pacman -S git\n\nOnce git is installed\n\nInstall SteamCMD with:\ngit clone https://aur.archlinux.org/steamcmd.git\n\nthen,\ncd steamcmd\n\nfinally,\nmakepkg -si\n\n-------------------------------------------------------\n\nUbuntu:\nIn the Konsole\n\nenter:\nsudo add-apt-repository multiverse; sudo dpkg --add-architecture i386; sudo apt update\nsudo apt install steamcmd\n\n-------------------------------------------------------\n\nOnce installed, in the konsole run steacmd with:\nsteamcmd\n\nnext login as anonymous:\nlogin anonymous\n\nthen download the Barotrauma Dedicated Server with:\napp_update 1026340 validate\n\nnext you'll need to access the server settings:\nlocate with /home/YOUR_USERNAME/.steam/steam/steamapps/common/Barotrauma\\ Dedicated\\ Server/\n\nfind the serversettings.xml \nlocated in the folder\n\nfind this line of code: \nRequireAuthentication=\"True\"\n\nChange it to\n\nRequireAuthentication=\"False\"\n\nSave and Exit.\n\nTo launch the server\nopen the konsole in the folder and type:\n./DedicatedServer\n\nor find the folder, right click and \"Run as executeable\"\n\nA terminal will appear and start launching the server.\n\nYou are free to go Offline\n\n-------------------------------------------------------\n\nGuests:\n\nMultiplayer \u2014> Server Browser\n\nClick on \nDirect IP\n\nNote: If it doesn't show up, keep pressing it or wait a moment, it shall launch eventually\n\nEnter HOST_IP of the Server\n\nJoin.\n\nIn the server konsole, type:\nstartgame\n\nonce everyone is ready.\n\nYou'll be entered into the server.",
     "link": "https://store.steampowered.com/app/602960/Barotrauma/"
   },
   {
@@ -627,7 +629,7 @@
   {
     "title": "Palworld",
     "state": "unsupported",
-    "notes": "Palworld is tightly integrated with Epic Online Services & Steam Networking API for security reasons; you can't launch a local multiplayer as host,\nbooting up an offline server using both SteamCMD and the App, connect via direct IP will boot guests due to 'no online token' from server.\n\nNo server options to disable online token enquiries or authentication logins",
+    "notes": "Palworld is tightly integrated with Epic Online Services & Steam Networking API for security reasons; you can't launch a local multiplayer as host,\nbooting up an offline server using both SteamCMD and the App, connect via direct IP will boot guests due to 'no online token' from server.\nNo server options to disable online token enquiries or authentication logins",
     "link": "https://store.steampowered.com/app/1623730/Palworld/"
   },
   {
@@ -878,7 +880,7 @@
   {
     "title": "The Forest",
     "state": "unsupported",
-    "notes": "Hosting needs to be connected with Steam servers, goes through an endless loop as a result.",
+    "notes": "Game has to be connected with Steam servers, \ncreates an endless loop attempting to host.\nNo options to disable online authentication for dedicated servers to allow guests to join locally",
     "link": "https://store.steampowered.com/app/242760/The_Forest/"
   },
   {
