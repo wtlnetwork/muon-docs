@@ -1,5 +1,60 @@
 [
   {
+    "title": "Distributrains",
+    "state": "supported",
+    "variable_players": "2-4 Players",
+    "notes":  "Host: Start/Challenge/Custom Game, Click Network in top left bar (F3), Uncheck: \"Annouce on Internet Server\", --, Host.\nGuest: Join Game, Direct IP, enter HOST_IP, Join.",
+    "link": "https://store.steampowered.com/app/4475930/Distributrains/"   
+  }, 
+  {
+    "title": "Craftopia",
+    "state": "supported",
+    "variable_players": "2-4 Players",
+    "notes":  "Host: Multiplayer, Host & Play, Connection Setting: IP Connection, --, Start.\nGuest: Multiplayer, Join via IP, enter: HOST_IP:8787 in bar, Start.",
+    "link": "https://store.steampowered.com/app/1307550/Craftopia/"   
+  }, 
+  {    
+    "title": "DOOM 3",
+    "state": "informational",
+    "variable_players": "2-4 Players",
+    "short_description": "Playable: Extended Setup",
+    "notes":  "Disclaimer: You can set up and complete this entire process offline\nby creating and editing text files. While a keyboard and mouse are recommended, \nthey are optional.\n\nNote: This setup is intended for Doom 3 multiplayer versus matches only. \nThe Doom I & Doom II versions of this game does not have multiplayer built in.\nThe BFG Edition of Doom 3 does not natively support campaign co-op. \nWhile mods exist to enable campaign co-op, they are incomplete and have been abandoned by the developers.\n\n---------------------------------\n\nSwitch to Desktop Mode\n\nSteam Library \n\nDoom 3 BFG\nRight Click,\nBrowse local files.\n\nIn the folder, go to base folder (DOOM 3 BFG\\base\\)\n\ncreate new text file: \n`autoexec.cfg`\n\nopen file and enter:\n`set com_allowConsole \"1\"`\n\nSave and Close\n\nGo back to GameModeUI\n\nLaunch Doom 3 BFG\n\nPress the \"~\" button under ESC key\n\nA developer console will appear.\n\n---------------------------------\n\nThe host and guest will need to type this in the console:\n`net_useplatformbackend 0`\n\nyou'll get a message saying:\n\"Opening IP Socket: localhost:27015\"\nWhen successful.\n\n(Note: You will NEED to enter this command every time you launch the game)\n\nHost: Multplayer, Create Private Match, --, wait in lobby.\nGuest: In the console type: \"connect HOST_IP\", enter.",
+    "link": "https://store.steampowered.com/app/208200/DOOM_3/"
+  },  
+  {
+    "title": "FAR CRY",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Multiplayer, Create, --, launch.\nGuest: Open console with \"~\" button under ESC key, type: '\\connect HOST_IP:49001', Enter.",
+    "link": "https://store.steampowered.com/app/13520/Far_Cry/"   
+  }, 
+  {
+    "title": "Fistful of Frags",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Click the 2 Guns in the top left corner, --, OK.\nGuest: Enable Developer Console, hit \"~\" button under ESC key, type: 'connect HOST_IP' in bar, Submit.",
+    "link": "https://store.steampowered.com/app/265630/Fistful_of_Frags/"   
+  }, 
+  {
+    "title": "Garfield Kart",
+    "state": "unsupported",
+    "notes": "on the beta build enabling multiplayer, after a few seconds of creating a lobby, host will be kicked with: 'connection error' message.",
+    "link": "https://store.steampowered.com/app/362930/Garfield_Kart/"
+  }, 
+  {
+    "title": "DUSK",
+    "state": "supported",
+    "variable_players": "2-16 Players",
+    "notes":  "Host & Guest:\n(Online) Switch to Proton Experimental\n(Offline)\nDUSKWORLD Launch, Play.\nHost: Create Server, Enable: \"IP/LAN Lobby\", --, Create\".\nGuest: Join server, the host lobby will appear, Connect.",
+    "link": "https://store.steampowered.com/app/519860/DUSK/"   
+  }, 
+  {
+    "title": "Chained Together",
+    "state": "unsupported",
+    "notes": "Attempting to host a lobby will fail with message: 'can't create session'",
+    "link": "https://store.steampowered.com/app/2567870/Chained_Together/"
+  }, 
+  {
     "title": "Total War: WARHAMMER III",
     "state": "supported",
     "variable_players": "2-8 Players",
