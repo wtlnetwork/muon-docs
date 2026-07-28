@@ -1,4 +1,30 @@
-[
+[ 
+  {
+    "title": "Chivalry: Medieval Warfare",
+    "state": "unsupported",
+    "notes": "Attempting to join LAN Game with server browser and direct IP will not find the host lobby.\nGame also frequently freezes for an unknown cause for some SteamOS devices, official Steam Deck works fine.",
+    "link": "https://store.steampowered.com/app/219640/Chivalry_Medieval_Warfare/"
+  }, 
+  {
+    "title": "FARCRY 2",
+    "state": "unsupported",
+    "notes": "Despite having options for direct connect LAN,\nthe host IP will not find the lobby, LAN scan also fails to find a lobby.\nDedicated servers fail to launch with error: \"CAccountService:: OnLogin\" \nDocumentation for launching a customized server is optimized more with Windows OS, \nwork around for Linux is needed as options for punkbuster checks can be disabled.",
+    "link": "https://store.steampowered.com/app/19900/Far_Cry_2/"
+  }, 
+  {
+    "title": "Sanctum",
+    "state": "supported",
+    "variable_players": "2-4 Players",
+    "notes":  "Host: Multiplayer, Host, Enable TCP/IP Only, --, Start.\nGuest: Multiplayer, Join via TCP/IP, input HOST_IP, Join.",
+    "link": "https://store.steampowered.com/app/91600/Sanctum/"   
+  }, 
+  {
+    "title": "X-COM: Enforcer",
+    "state": "supported",
+    "variable_players": "2-16 Players",
+    "notes":  "Host: Multiplayer, Host Game, Server Tab and Enable Optimize for LAN, --, Start.\nGuest: Multiplayer, Join Game, LAN Server Tab, host lobby will appear, click to join.",
+    "link": "https://store.steampowered.com/app/7770/XCOM_Enforcer/"   
+  }, 
   {
     "title": "Distributrains",
     "state": "supported",
@@ -863,7 +889,7 @@
   {
     "title": "FlatOut 2",
     "state": "unsupported",
-    "notes": "Guest can't find host lobby in LAN mode. No Direct IP support options as bypass",
+    "notes": "Guest can't find host lobby in LAN mode. No Direct IP support options as bypass.\nA mod called OpenSpy doesn't alter the LAN scan search, the mod is dedicated to online searches.",
     "link": "https://store.steampowered.com/app/2990/FlatOut_2/"
   },
   {
