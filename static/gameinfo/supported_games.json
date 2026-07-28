@@ -6,7 +6,7 @@
     "link": "https://store.steampowered.com/app/219640/Chivalry_Medieval_Warfare/"
   }, 
   {
-    "title": "FARCRY 2",
+    "title": "FAR CRY 2",
     "state": "unsupported",
     "notes": "Despite having options for direct connect LAN,\nthe host IP will not find the lobby, LAN scan also fails to find a lobby.\nDedicated servers fail to launch with error: \"CAccountService:: OnLogin\" \nDocumentation for launching a customized server is optimized more with Windows OS, \nwork around for Linux is needed as options for punkbuster checks can be disabled.",
     "link": "https://store.steampowered.com/app/19900/Far_Cry_2/"
@@ -64,7 +64,7 @@
   {
     "title": "Garfield Kart",
     "state": "unsupported",
-    "notes": "on the beta build enabling multiplayer, after a few seconds of creating a lobby, host will be kicked with: 'connection error' message.",
+    "notes": "On the beta build enabling multiplayer, after a few seconds of creating a lobby, host will be kicked with: 'connection error' message.",
     "link": "https://store.steampowered.com/app/362930/Garfield_Kart/"
   }, 
   {
@@ -378,7 +378,7 @@
     "link": "https://www.moddb.com/mods/goldeneye-source/downloads/ges-v506-full-installer-exe"
   }, 
   { 
-    "title": "F.E.A.R",
+    "title": "F.E.A.R.",
     "state": "informational",
     "variable_players": "2-16 Players",
     "short_description": "Playable: CD Key Installation",
