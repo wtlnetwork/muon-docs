@@ -1,4 +1,28 @@
-[ 
+[
+  {
+    "title": "Monday Night Combat",
+    "state": "unsupported",
+    "notes": "Multiplayer options are inaccessible once Steam is in offline mode.",
+    "link": "https://store.steampowered.com/app/63200/Monday_Night_Combat/"
+  }, 
+  {
+    "title": "Knockout Battle",
+    "state": "unsupported",
+    "notes": "For the host to start a lobby, guests need to be invited through the online Steam Friends list.\nNo other options to join through local area network scans or direct IPs.",
+    "link": "https://store.steampowered.com/app/3347950/Knockout_Battle/"
+  }, 
+  {
+    "title": "Insurgency: Sandstorm",
+    "state": "unsupported",
+    "notes": "Allowing Epic's Online Service on both devices before going offline, \nlaunching lobby on local and joining with Direct IP console \nwill cause the guest device to be stuck in a join loop.",
+    "link": "https://store.steampowered.com/app/581320/Insurgency_Sandstorm/"
+  }, 
+  {
+    "title": "Red Orchestra 2: Heroes of Stalingrad with Rising Storm",
+    "state": "unsupported",
+    "notes": "After going through 3 reboot prompts to get the game to launch, \nit will soft lock constantly on the main menu due to the game unable to reach online servers.",
+    "link": "https://store.steampowered.com/app/35450/Red_Orchestra_2_Heroes_of_Stalingrad_with_Rising_Storm/"
+  }, 
   {
     "title": "Chivalry: Medieval Warfare",
     "state": "unsupported",
