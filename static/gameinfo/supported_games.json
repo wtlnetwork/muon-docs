@@ -1,5 +1,38 @@
 [
   {
+    "title": "Call of Duty: Black Ops",
+    "state": "unsupported",
+    "notes": "The Play button is grayed out for hosting or joining lobbies with error: \n\"No network connection detected. You must have an active network connection to play online or a local network\"",
+    "link": "https://store.steampowered.com/app/42700/Call_of_Duty_Black_Ops/"
+  }, 
+  {
+    "title": "F.E.A.R. 2: Project Origin",
+    "state": "supported",
+    "variable_players": "2-16 Players",
+    "notes":  "Host & Guest: Start, Local Network.\nHost: Host, --, Launch.\nGuest: Join, Click on Host Lobby.",
+    "link": "https://store.steampowered.com/app/16450/FEAR_2_Project_Origin/"   
+  }, 
+  {
+    "title": "FPS Chess",
+    "state": "unsupported",
+    "notes": "Guest can not find the host lobby in LAN mode, LAN matches are tied to Epic's online service for connection.",
+    "link": "https://store.steampowered.com/app/2021910/FPS_Chess/"
+  }, 
+  {
+    "title": "Quake 4",
+    "state": "supported",
+    "variable_players": "2-8 Players",
+    "notes":  "Host: Multiplayer, Create Server, Switch Server Type to LAN, Disbale Punkbuser, --, Create Server\nGuest: Multiplayer, Game Browser, Switch Source to: LAN, click and Join Server.",
+    "link": "https://store.steampowered.com/app/2210/Quake_4/"   
+  },
+  {
+    "title": "Quake Live",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Play, Start Match, Set Match Type to: LAN, --, Launch Match.\nGuest: Press CTRL+ALT+` (key under ESC) to bring up Console, type: \"connect HOST_IP:27015\", enter.",
+    "link": "https://store.steampowered.com/app/282440/Quake_Live/"   
+  }, 
+  {
     "title": "Monday Night Combat",
     "state": "unsupported",
     "notes": "Multiplayer options are inaccessible once Steam is in offline mode.",
