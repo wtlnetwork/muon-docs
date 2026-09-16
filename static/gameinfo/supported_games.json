@@ -1,5 +1,120 @@
 [
   {
+    "title": "Arma 3",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host: Quick Play, Host Server, Host: LAN, Host Server, --, Play, Wait in Lobby.\nGuest: Quick Play, Direct Connect, enter HOST_IP in Address Bar, Join, highlight host lobby and join.",
+    "link": "https://store.steampowered.com/app/107410/Arma_3/"   
+  },
+  {
+    "title": "BeaterCore",
+    "state": "supported",
+    "variable_players": "2-6 Players",
+    "notes":  "Host & Guest: Complete Tutorial on New Game.\nHost: Host Multiplayer, enable LAN, Uncheck friends only, Create Server, --, Wait in Lobby.\nGuest: Connect IP, Input HOST_IP:6237, Connect.",
+    "link": "https://store.steampowered.com/app/3711050/BeaterCore/"   
+  },
+  {
+    "title": "SpeedRunners 2: King of Speed",
+    "state": "unsupported",
+    "notes": "Offline is tied to split-screen and single player campaign, any LAN options are denied,\nno direct IP or LAN type connection in options.",
+    "link": "https://store.steampowered.com/app/3183760/SpeedRunners_2_King_of_Speed/"
+  }, 
+  {
+    "title": "Fleet Hunters",
+    "state": "supported",
+    "variable_players": "2 Players",
+    "notes":  "Host: Multiplayer engagement, local game, host game, wait for guest.\nGuest: Multiplayer engagement, local network, join game.",
+    "link": "https://store.steampowered.com/app/4074510/Fleet_Hunters/"   
+  },
+  {
+    "title": "Perfect Heist 2",
+    "state": "unsupported",
+    "notes": "With LAN Server checked for Hosting, guests cannot find the lobby even when \u201cShow LAN Servers\u201d option is checked for searching, no direct IP options to bypass. Uses Epic's Online Service.",
+    "link": "https://store.steampowered.com/app/1521580/Perfect_Heist_2/"
+  }, 
+  {
+    "title": "Wolfenstein: Enemy Territory",
+    "state": "supported",
+    "variable_players": "2-32 Players",
+    "notes":  "Host & Guest: on Launch Menu: Create Profile, Connection: LAN/CABLE/xDSL, --, Create.\nHost: Host Game, --, Start Server.\nGuest: Play Online, Connect to IP, input HOST_IP.",
+    "link": "https://store.steampowered.com/app/1873030/Wolfenstein_Enemy_Territory/"   
+  },
+  {
+    "title": "Warhammer 40,000: Dawn of War - Anniversary Edition (Classic)",
+    "state": "unsupported",
+    "notes": "Direct IP and LAN was removed and replaced with Steam Networking API for online play with other Steam user's only.\nThe GameSpy build had LAN and Direct IP functionality.",
+    "link": "https://store.steampowered.com/app/4570/Warhammer_40000_Dawn_of_War__Anniversary_Edition_Classic/"
+  }, 
+  {    
+    "title": "Re-Volt",
+    "state": "informational",
+    "variable_players": "2-16 Players",
+    "short_description": "Playable: Mod Install",
+    "notes":  "Disclaimer: This setup includes links to third-party or unverified\nsources. While we did not encounter any malware or malicious behaviour\nwhen installing the mod, software, or script, you should proceed with\ncaution and be aware of the potential risks.\nBoth the host and guest need to be online to download the mods.\nOnce everything is installed, this tutorial will let you know that you\u2019re free to go offline and play.\n\nWhile the base game launches, the host cannot start the lobby. Attempts to change the networking type will fail, and the setting will default to Internet TCP/IP. It will not switch to IPX Connection, which is required for LAN play. Starting the host match under the TCP/IP setting will not work.\nUsing the compatibility layer Luxtorpeda changes the game to RVGL, an open-source version running on a modern engine. While this method alters a few menu options, it resolves the issue of connecting over LAN.\n\n---------------------------------\n\nEnsure ProtonPlus is installed your desktopUI device to download them. \nIn Desktop Mode, open flatpak store and download \"ProtonPlus\".\nIf it isn't installed, another options is to download the plugin: wine-cellar from the decky-loader store.\nIf wine-cellar isn't avaliable because decky-loader not being installed for guests, do the first method.\n\nDownload latest Luxtorpeda v76.3.0 from wine-cellar plugin from decky-loader in GameModeUI (or ProtonPlus in Desktop Mode), Reboot the device.\n\nIn Controller configurations, download and install the community controller config: \"Re-volt ready\" by -> T-Rex91 <-.\n\nGo to game settings, compatability, enable Luxtorpeda v76.3.0.\n\nLaunch game.\n\nAllow game to add the extra packages.\n\nOnce you set up a profile, in the main menu, exit game.\n\nYou are now free to go offline.\n\n---------------------------------\n\nHost & Guest: Start Race, Multi-Player.\nHost: Start Game, --, Waiting Room, Wait in Lobby. \nGuest: Join Game, input HOST_IP, --, Waiting Room.\n\n(Note: The TAB Key may not be binded to start the match, assign it in the change configuration steam menu)",
+    "link": "https://store.steampowered.com/app/287310/ReVolt/"
+  }, 
+  {
+    "title": "Supreme Commander",
+    "state": "supported",
+    "variable_players": "2-8+ Players",
+    "notes":  "Host & Guest: Create Profile, Multiplayer, LAN/IP.\nHost: Host, Name Game, Wait in Lobby.\nGuest: Host lobby will appear in server list, highlight host lobby, join.",
+    "link": "https://store.steampowered.com/app/9350/Supreme_Commander/"   
+  },
+  {
+    "title": "Act of War: Direct Action",
+    "state": "supported",
+    "variable_players": "2-8 Players",
+    "notes":  "Host: LAN, Create, --, Wait in Lobby.\nGuest: LAN, Refresh List, Highlight Host Lobby, Join.",
+    "link": "https://store.steampowered.com/app/2710/Act_of_War_Direct_Action/"   
+  },
+  {    
+    "title": "Frontlines: Fuel of War",
+    "state": "informational",
+    "variable_players": "2-64 Players",
+    "short_description": "Playable: Extended Setup",
+    "notes":  "Disclaimer: Keyboard and mouse are optional, but recommended.\n\n---------------------------------\n\nHost & Guest: \n\nDownload Proton 5.13-6 and add it to Frontliners Fuel of War's Compatibility\nNext Add Launch Options: \n\n\"PROTON_USE_WINE3D=1 %command%\"\n\n(Note: Host doesn't need to do this next step, all the guests have to)\n\n---------------------------------\n\nGuests: \n\ngo to Steam\\SteamApps\\common\\Frontlines Fuel of War\\GCGame\\Config\n\nopen defaultinput.ini and look for this line near the top of the page:\n\n[Engine.Console]\n; -- Set TypeKey=SemiColon to bind mini-console to ;\nTypeKey=\n; -- Set ConsoleKey=Tilde to bind ~ to console\nConsoleKey=\n\nAdd:\nSemiColon to TypeKey\n\n&\n\nTilde to ConsoleKey\n\nIt will look like this:\n\n[Engine.Console]\n; -- Set TypeKey=SemiColon to bind mini-console to ;\nTypeKey=SemiColon\n; -- Set ConsoleKey=Tilde to bind ~ to console\nConsoleKey=Tilde\n\nSave & Exit.\n\nLaunch back into Gamemode.\n\nYou are free to go Offline.\n\n---------------------------------\n\nHost: Lan, Create Game, --, Launch. \nGuest: Open console with \"`\" (Under ESC key), type: \"open HOST_IP\", Enter.",
+    "link": "https://store.steampowered.com/app/9460/Frontlines_Fuel_of_War/"
+  }, 
+  {
+    "title": "Contagion",
+    "state": "supported",
+    "variable_players": "2-8 Players",
+    "notes":  "Host & Guest: Add \"-console\" to launch options, launch game.\nHost: enter: \"sv_lan 1\", \"map \", choose a map, Submit.\nGuest: enter: \"connect HOST_IP\", Submit.",
+    "link": "https://store.steampowered.com/app/238430/Contagion/"   
+  },
+  {
+    "title": "Daikatana",
+    "state": "supported",
+    "variable_players": "2 Players",
+    "notes":  "Host: Multiplayer, Connection Rate: T1/LAN, Start a Multiplayer Game, --, Start.\nGuest: Multiplayer, Find a Local Game, Click on Host Lobby, Join.",
+    "link": "https://store.steampowered.com/app/242980/Daikatana/"   
+  },
+  {
+    "title": "Far Far West",
+    "state": "unsupported",
+    "notes": "Guest can not find host lobby, requires online session codes and steamworks lobby browser for connection.\nNo LAN scanning or direct IP options.",
+    "link": "https://store.steampowered.com/app/3124540/Far_Far_West/"
+  }, 
+  {
+    "title": "Depth",
+    "state": "unsupported",
+    "notes": "Guest can not find host lobby,\ngame does not have developer console to join via Direct IP,\nHost can only set up offline solo private match against bots.",
+    "link": "https://store.steampowered.com/app/274940/Depth/"
+  }, 
+  {
+    "title": "Distance",
+    "state": "unsupported",
+    "notes": "Sources claimed the game to have direct IP options, it does not. (Steam Version)\nOnline or split-screen options only, guest can not join the host lobby through online browser scans.",
+    "link": "https://store.steampowered.com/app/233610/Distance/"
+  }, 
+  {
+    "title": "Lost Castle 2",
+    "state": "supported",
+    "variable_players": "2-4 Players",
+    "notes":  "Host & Guest: Beat the tutorial, head to the campfire, Select Server, Switch server to: Lan, Confirm.\nHost: Create Room, Type: Public Room, --, Create Room.\nGuest: Quick Match, Match.",
+    "link": "https://store.steampowered.com/app/2445690/Lost_Castle_2/"   
+  }, 
+  {
     "title": "Call of Duty: Black Ops",
     "state": "unsupported",
     "notes": "The Play button is grayed out for hosting or joining lobbies with error: \n\"No network connection detected. You must have an active network connection to play online or a local network\"",
