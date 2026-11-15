@@ -111,7 +111,7 @@
     "title": "Lost Castle 2",
     "state": "supported",
     "variable_players": "2-4 Players",
-    "notes":  "Host & Guest: Beat the tutorial, head to the campfire, Select Server, Switch server to: Lan, Confirm.\nHost: Create Room, Type: Public Room, --, Create Room.\nGuest: Quick Match, Match.",
+    "notes":  "Host & Guest: Beat the tutorial, head to the campfire, Select Server, Switch server to: Lan, Confirm.\nHost: Create Room, Type: Public Room, --, Create Room.\nGuest: Quick Match, Match.\n\n(Note: If the \"Y\" prompt above the campfire doesn't appear,\nrun to the right of the hub area where it says \"Adventure Awaits\" and start an adventure,\nonce in the adventure, press start and select \"Escape\", this will return you to the main hub again.\nA small cutscene will play out where you talk to the blacksmith,\nyou'll unlock the campfire allowing multiplayer access)",
     "link": "https://store.steampowered.com/app/2445690/Lost_Castle_2/"   
   }, 
   {
@@ -1006,7 +1006,7 @@
     "title": "Half-Life 2: Deathmatch",
     "state": "supported",
     "variable_players": "2-16 Players",
-    "notes": "Host: Create Server, Enable Steam Networking, Start\nGuest: Join Server, Select LAN Tab, Refresh, Click the lobby, Connect",
+    "notes": "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
     "link": "https://store.steampowered.com/app/320/HalfLife_2_Deathmatch/"
   },
   {
@@ -1211,7 +1211,7 @@
   {
     "title": "DOOM I + II",
     "state": "unsupported",
-    "notes": "Guests can not find host lobby when in Lan search.",
+    "notes": "Guests can not find host lobby when in Lan search, developer console options are avaliable but the commands 'open' and 'connect' are not registered within the console.",
     "link": "https://store.steampowered.com/app/2280/DOOM__DOOM_II/"
   },
   {
@@ -1310,7 +1310,7 @@
     "title": "Counter-Strike: Source",
     "state": "supported",
     "variable_players": "2-32 Players",
-    "notes": "Host: Create Server, Enable: \"Use Steam Networking\", Start Game\nGuest: Find Servers, Select \"Lan\" tab, Hit Refresh, Join HOST Server",
+    "notes": "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
     "link": "https://store.steampowered.com/app/240/CounterStrike_Source/"
   },
   {
