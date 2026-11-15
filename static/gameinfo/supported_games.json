@@ -137,7 +137,7 @@
     "title": "Quake 4",
     "state": "supported",
     "variable_players": "2-8 Players",
-    "notes":  "Host: Multiplayer, Create Server, Switch Server Type to LAN, Disbale Punkbuser, --, Create Server\nGuest: Multiplayer, Game Browser, Switch Source to: LAN, click and Join Server.",
+    "notes":  "Host: Multiplayer, Create Server, Switch Server Type to LAN, Disable Punkbuster, --, Create Server\nGuest: Multiplayer, Game Browser, Switch Source to: LAN, click and Join Server.",
     "link": "https://store.steampowered.com/app/2210/Quake_4/"   
   },
   {
@@ -480,7 +480,7 @@
     "title": "Day of Defeat: Source",
     "state": "supported",
     "variable_players": "2-32 Players",
-    "notes":  "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
+    "notes":  "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, --, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
     "link": "https://store.steampowered.com/app/300/Day_of_Defeat_Source/"   
   },
   {
@@ -1006,7 +1006,7 @@
     "title": "Half-Life 2: Deathmatch",
     "state": "supported",
     "variable_players": "2-16 Players",
-    "notes": "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
+    "notes": "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, --, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
     "link": "https://store.steampowered.com/app/320/HalfLife_2_Deathmatch/"
   },
   {
@@ -1310,7 +1310,7 @@
     "title": "Counter-Strike: Source",
     "state": "supported",
     "variable_players": "2-32 Players",
-    "notes": "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
+    "notes": "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, --, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
     "link": "https://store.steampowered.com/app/240/CounterStrike_Source/"
   },
   {
