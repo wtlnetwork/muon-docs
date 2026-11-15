@@ -480,7 +480,7 @@
     "title": "Day of Defeat: Source",
     "state": "supported",
     "variable_players": "2-32 Players",
-    "notes":  "Host: Create Server, Enable Steam Networking, --, Start\nGuest: Join Server, Select LAN Tab, Refresh, Click the lobby, Connect",
+    "notes":  "Host: Create Match, Start, Press Start, Disconnect.\nCreate Match, Select \"Public (Listed)\" in  Server Type, Start.\nGuest: Find Server, Lan, Refresh, Select host game and join.\n\n(Note: If LAN/Public (Listed) is not showing in Lan tab for guest.\nOn the guest device, enable Developer Console in the keyboard & mouse settings.\nPress \"~\" button under ESC key to bring up console commaned,\ntype \"connect HOST_IP\" then submit.)",
     "link": "https://store.steampowered.com/app/300/Day_of_Defeat_Source/"   
   },
   {
